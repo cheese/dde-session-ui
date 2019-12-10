@@ -81,3 +81,10 @@ void DBusShutdownAgent::Show()
         frame->show();
     }
 }
+
+void DBusShutdownAgent::Hide()
+{
+    for (ShutdownFrame *frame : m_frames) {
+        frame->hide();
+    }
+}

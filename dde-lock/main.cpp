@@ -45,6 +45,36 @@
 DCORE_USE_NAMESPACE
 DWIDGET_USE_NAMESPACE
 
+static bool process_is_running(const char *proc_name)
+{
+    FILE* fp = NULL;
+    char buff[100];
+    int ret;
+    sprintf(buff, "ps -elf| grep %s | grep -v grep > /dev/null ;echo $?", proc_name);
+    if ((fp = popen(buff, "r")) != NULL){
+        fgets(buff, sizeof(buff), fp);
+	pclose(fp);
+	if(!strncmp(buff, "0", 1)){
+	    return true;
+        }else{
+            return false;
+	}
+    }
+}
+void dbus_call_shutdown_hide(void)
+{
+    const char *interface = "com.deepin.dde.shutdownFront";
+    const char *dbus_name = "com.deepin.dde.shutdownFront";
+    const char *dbus_path = "/com/deepin/dde/shutdownFront";
+    if (process_is_running("dde-shutdown")){
+        QDBusInterface ifc(dbus_name, dbus_path, interface, QDBusConnection::sessionBus(), NULL);
+        ifc.asyncCall("Hide");
+    }else{
+        qDebug() << "Process dde-shutdown is not running!\n";
+    }
+}
+
+
 int main(int argc, char *argv[])
 {
     DApplication::loadDXcbPlugin();
@@ -55,7 +85,7 @@ int main(int argc, char *argv[])
 
     DLogManager::registerConsoleAppender();
     DLogManager::registerFileAppender();
-
+    dbus_call_shutdown_hide();
     QTranslator translator;
     translator.load("/usr/share/dde-session-ui/translations/dde-session-ui_" + QLocale::system().name());
     app.installTranslator(&translator);

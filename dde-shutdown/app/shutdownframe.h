@@ -73,6 +73,7 @@ public:
     Q_SLOT void Hibernate();
     Q_SLOT void SwitchUser();
     Q_SLOT void Show();
+    Q_SLOT void Hide();
 
 private:
     DBusShutdownAgent* m_parent;

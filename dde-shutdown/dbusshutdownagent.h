@@ -21,6 +21,7 @@ public:
     void Hibernate();
     void SwitchUser();
     void Show();
+    void Hide();
 
 private:
     QList<ShutdownFrame*> m_frames;

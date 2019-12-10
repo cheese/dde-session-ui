@@ -134,3 +134,8 @@ void ShutdownFrontDBus::Show()
 {
     m_parent->Show();
 }
+
+void ShutdownFrontDBus::Hide()
+{
+    m_parent->Hide();
+}
