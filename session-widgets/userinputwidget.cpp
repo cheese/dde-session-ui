@@ -389,6 +389,14 @@ bool UserInputWidget::eventFilter(QObject *watched, QEvent *event)
         grabKeyboard();
     }
 
+    if (event->type() == QEvent::KeyPress) {
+        QKeyEvent *key_event = static_cast<QKeyEvent *>(event);
+        if (key_event->modifiers() & (Qt::ControlModifier | Qt::AltModifier | Qt::MetaModifier)) {
+            if ((key_event->modifiers() & Qt::ControlModifier) && key_event->key() == Qt::Key_A) return false;
+            return true;
+        }
+    }
+
     return QWidget::eventFilter(watched, event);
 }
 
