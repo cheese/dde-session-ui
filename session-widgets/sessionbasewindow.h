@@ -23,6 +23,7 @@ private:
     QHBoxLayout *m_leftBottomLayout;
     QHBoxLayout *m_centerLayout;
     QHBoxLayout *m_rightBottomLayout;
+    QScrollArea *m_scrollArea;
     QWidget *m_centerWidget;
     QWidget *m_leftBottomWidget;
     QWidget *m_rightBottomWidget;

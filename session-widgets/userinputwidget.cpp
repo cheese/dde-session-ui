@@ -86,12 +86,17 @@ UserInputWidget::UserInputWidget(QWidget *parent)
 
     QVBoxLayout *layout = new QVBoxLayout;
 
-    layout->addWidget(m_userAvatar, 0, Qt::AlignCenter);
-    layout->addWidget(m_nameLbl, 0, Qt::AlignCenter);
-    layout->addWidget(m_otherUserInput, 0, Qt::AlignCenter);
-    layout->addWidget(m_passwordEdit, 0, Qt::AlignCenter);
-    layout->addWidget(m_lockPasswordWidget, 0, Qt::AlignCenter);
-    layout->addWidget(m_loginBtn, 0, Qt::AlignCenter);
+    layout->setMargin(0);
+    layout->setSpacing(0);
+
+    layout->addStretch();
+    // 因为主窗口布局下面的工具栏高度为132，为了输入框在主窗口上看着是垂直居中对齐
+    layout->addSpacing(132);
+    layout->addWidget(m_otherUserInput, 0, Qt::AlignHCenter);
+    layout->addWidget(m_passwordEdit, 0, Qt::AlignHCenter);
+    layout->addWidget(m_lockPasswordWidget, 0, Qt::AlignHCenter);
+    layout->addWidget(m_loginBtn, 0, Qt::AlignHCenter);
+    layout->addStretch();
 
     setLayout(layout);
 
@@ -414,6 +419,11 @@ void UserInputWidget::refreshAvatarPosition()
             }
         }
     }
+
+    int bottom_y = first_visible_widget ? first_visible_widget->y() : height() / 2;
+
+    m_nameLbl->move((width() - m_nameLbl->width()) / 2, bottom_y - m_nameLbl->height() - 20);
+    m_userAvatar->move((width() - m_userAvatar->width()) / 2, m_nameLbl->y() - m_userAvatar->height());
 }
 
 void UserInputWidget::toggleKBLayoutWidget()
@@ -448,7 +458,7 @@ void UserInputWidget::refreshInputState()
     m_otherUserInput->hide();
     m_lockPasswordWidget->hide();
 
-    int frameHeight = (m_userAvatar->height() + 20 + m_nameLbl->height() + 18);
+    int frameHeight = (m_userAvatar->height() + 20 + m_nameLbl->height() + 18) * 2;
 
     if (!m_user) return;
 
@@ -469,6 +479,8 @@ void UserInputWidget::refreshInputState()
         setDefaultKBLayout(m_user->currentKBLayout());
         frameHeight += DDESESSIONCC::PASSWDLINEEDIT_HEIGHT;
     }
+
+    setFixedHeight(frameHeight);
 }
 
 void UserInputWidget::onOtherPagePasswordChanged(const QVariant &value)
