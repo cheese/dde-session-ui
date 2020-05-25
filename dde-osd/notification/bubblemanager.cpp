@@ -121,9 +121,6 @@ uint BubbleManager::Notify(const QString &appName, uint replacesId,
                            const QString &body, const QStringList &actions,
                            const QVariantMap hints, int expireTimeout)
 {
-    qDebug() << "Notify:" << "appName:" + appName << "replaceID:" + QString::number(replacesId)
-             << "appIcon:" + appIcon << "summary:" + summary << "body:" + body
-             << "actions:" << actions << "hints:" << hints << "expireTimeout:" << expireTimeout;
 
     QString strBody = body;
     strBody.replace(QLatin1String("\\\\"), QLatin1String("\\"), Qt::CaseInsensitive);
