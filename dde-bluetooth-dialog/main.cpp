@@ -19,12 +19,15 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+#include "pincodedialog.h"
+
 #include <DApplication>
 #include <QDebug>
 #include <QTranslator>
-#include "pincodedialog.h"
+#include <DLog>
 
 DWIDGET_USE_NAMESPACE
+DGUI_USE_NAMESPACE
 DCORE_USE_NAMESPACE
 
 const int PingCode = 1;
@@ -38,6 +41,9 @@ int main(int argc, char *argv[])
     app.loadTranslator();
     app.setOrganizationName("deepin");
     app.setApplicationName("dde-bluetooth-dialog");
+    DLogManager::registerConsoleAppender();
+    DLogManager::registerFileAppender();
+
     QTranslator translator;
     translator.load("/usr/share/dde-session-ui/translations/dde-session-ui_" + QLocale::system().name());
     app.installTranslator(&translator);

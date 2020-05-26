@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui dtkwidget
+QT       += core gui dtkgui dtkcore dtkwidget
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
