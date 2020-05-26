@@ -399,7 +399,7 @@
     <message>
         <location filename="../dde-notification-plugin/notifications/notificationsplugin.cpp" line="89"/>
         <source>No messages</source>
-        <translation type="unfinished"/>
+        <translation>Nessun messaggio</translation>
     </message>
     <message>
         <location filename="../dde-notification-plugin/notifications/notificationsplugin.cpp" line="235"/>
@@ -553,7 +553,7 @@
     </message>
     <message numerus="yes">
         <source>Please try again %n minute(s) later</source>
-        <translation type="vanished"><numerusform>Per cortesia riprova tra %n minuto(i)</numerusform><numerusform>Per cortesia riprova tra %n minuto(i)</numerusform></translation>
+        <translation type="vanished"><numerusform>Riprova tra %n minuto(i)</numerusform><numerusform>Riprova tra %n minuto(i)</numerusform></translation>
     </message>
     <message>
         <source>Enter your password to shut down</source>
@@ -616,6 +616,24 @@
         <location filename="../dde-lowpower/window.cpp" line="39"/>
         <source>Low battery, please plug in</source>
         <translation>Batteria scarica, metti il PC in carica</translation>
+    </message>
+</context>
+<context>
+    <name>dcc::bluetooth::PinCodeDialog</name>
+    <message>
+        <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="39"/>
+        <source>The PIN for connecting to the Bluetooth device is:</source>
+        <translation>Il PIN per connettersi al dispositivo Bluetooth è: </translation>
+    </message>
+    <message>
+        <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="47"/>
+        <source>Cancel</source>
+        <translation>Annulla</translation>
+    </message>
+    <message>
+        <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="49"/>
+        <source>Confirm</source>
+        <translation>Conferma</translation>
     </message>
 </context>
 </TS>

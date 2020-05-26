@@ -618,4 +618,22 @@
         <translation>باتری شما کم است ، دستگاه را برق وصل کنید</translation>
     </message>
 </context>
+<context>
+    <name>dcc::bluetooth::PinCodeDialog</name>
+    <message>
+        <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="39"/>
+        <source>The PIN for connecting to the Bluetooth device is:</source>
+        <translation>PIN اتصال به دستگاه بلوتوث این است :</translation>
+    </message>
+    <message>
+        <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="47"/>
+        <source>Cancel</source>
+        <translation>انصراف</translation>
+    </message>
+    <message>
+        <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="49"/>
+        <source>Confirm</source>
+        <translation>تایید</translation>
+    </message>
+</context>
 </TS>

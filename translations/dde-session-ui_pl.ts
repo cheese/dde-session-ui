@@ -399,7 +399,7 @@
     <message>
         <location filename="../dde-notification-plugin/notifications/notificationsplugin.cpp" line="89"/>
         <source>No messages</source>
-        <translation type="unfinished"/>
+        <translation>Brak wiadomości</translation>
     </message>
     <message>
         <location filename="../dde-notification-plugin/notifications/notificationsplugin.cpp" line="235"/>
@@ -616,6 +616,24 @@
         <location filename="../dde-lowpower/window.cpp" line="39"/>
         <source>Low battery, please plug in</source>
         <translation>Niski stan baterii, prosimy podłączyć do zasilania</translation>
+    </message>
+</context>
+<context>
+    <name>dcc::bluetooth::PinCodeDialog</name>
+    <message>
+        <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="39"/>
+        <source>The PIN for connecting to the Bluetooth device is:</source>
+        <translation>Kod PIN do połączenia z urządzeniem Bluetooth to:</translation>
+    </message>
+    <message>
+        <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="47"/>
+        <source>Cancel</source>
+        <translation>Anuluj</translation>
+    </message>
+    <message>
+        <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="49"/>
+        <source>Confirm</source>
+        <translation>Potwierdź</translation>
     </message>
 </context>
 </TS>

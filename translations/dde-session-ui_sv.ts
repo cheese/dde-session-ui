@@ -618,4 +618,22 @@
         <translation>Lågt batteri, vänligen anslut</translation>
     </message>
 </context>
+<context>
+    <name>dcc::bluetooth::PinCodeDialog</name>
+    <message>
+        <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="39"/>
+        <source>The PIN for connecting to the Bluetooth device is:</source>
+        <translation>PIN-koden för att ansluta till Bluetooth enheten är:</translation>
+    </message>
+    <message>
+        <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="47"/>
+        <source>Cancel</source>
+        <translation>Avbryt</translation>
+    </message>
+    <message>
+        <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="49"/>
+        <source>Confirm</source>
+        <translation>Bekräfta</translation>
+    </message>
+</context>
 </TS>

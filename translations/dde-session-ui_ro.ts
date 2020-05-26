@@ -618,4 +618,22 @@
         <translation>Baterie scăzută, vă rugăm conectați</translation>
     </message>
 </context>
+<context>
+    <name>dcc::bluetooth::PinCodeDialog</name>
+    <message>
+        <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="39"/>
+        <source>The PIN for connecting to the Bluetooth device is:</source>
+        <translation>PIN-ul pentru conectarea la dispozitivul bluetooth este:</translation>
+    </message>
+    <message>
+        <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="47"/>
+        <source>Cancel</source>
+        <translation>Anulează</translation>
+    </message>
+    <message>
+        <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="49"/>
+        <source>Confirm</source>
+        <translation>Confirmare</translation>
+    </message>
+</context>
 </TS>

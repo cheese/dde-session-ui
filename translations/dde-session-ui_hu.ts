@@ -618,4 +618,22 @@
         <translation>Alacsony akkumulátor szint, kérlek csatlakoztasd a gépet a töltőre.</translation>
     </message>
 </context>
+<context>
+    <name>dcc::bluetooth::PinCodeDialog</name>
+    <message>
+        <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="39"/>
+        <source>The PIN for connecting to the Bluetooth device is:</source>
+        <translation>A PIN-kód megadásával csatlakozhatsz a bluetooth eszközhöz:</translation>
+    </message>
+    <message>
+        <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="47"/>
+        <source>Cancel</source>
+        <translation>Mégsem</translation>
+    </message>
+    <message>
+        <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="49"/>
+        <source>Confirm</source>
+        <translation>Megerősítés</translation>
+    </message>
+</context>
 </TS>

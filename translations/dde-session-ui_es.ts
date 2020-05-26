@@ -4,7 +4,7 @@
     <message>
         <location filename="../dde-osd/notification/bubble.cpp" line="308"/>
         <source>1 new message</source>
-        <translation type="unfinished"/>
+        <translation>1 mensaje nuevo</translation>
     </message>
 </context>
 <context>
@@ -399,22 +399,22 @@
     <message>
         <location filename="../dde-notification-plugin/notifications/notificationsplugin.cpp" line="89"/>
         <source>No messages</source>
-        <translation type="unfinished"/>
+        <translation>No hay mensajes</translation>
     </message>
     <message>
         <location filename="../dde-notification-plugin/notifications/notificationsplugin.cpp" line="235"/>
         <source>Turn off DND mode</source>
-        <translation type="unfinished"/>
+        <translation>Desactivar el modo DND</translation>
     </message>
     <message>
         <location filename="../dde-notification-plugin/notifications/notificationsplugin.cpp" line="235"/>
         <source>Turn on DND mode</source>
-        <translation type="unfinished"/>
+        <translation>Activar el modo DND</translation>
     </message>
     <message>
         <location filename="../dde-notification-plugin/notifications/notificationsplugin.cpp" line="242"/>
         <source>Notification settings</source>
-        <translation type="unfinished"/>
+        <translation>Configuración de la notificación</translation>
     </message>
 </context>
 <context>
@@ -617,6 +617,24 @@ Sin efectos disfrutará de un mayor rendimiento.</translation>
         <location filename="../dde-lowpower/window.cpp" line="39"/>
         <source>Low battery, please plug in</source>
         <translation>Batería baja. Por favor conecte a una toma eléctrica</translation>
+    </message>
+</context>
+<context>
+    <name>dcc::bluetooth::PinCodeDialog</name>
+    <message>
+        <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="39"/>
+        <source>The PIN for connecting to the Bluetooth device is:</source>
+        <translation>El PIN para conectar el dispositivo Bluetooth es:</translation>
+    </message>
+    <message>
+        <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="47"/>
+        <source>Cancel</source>
+        <translation>Cancelar</translation>
+    </message>
+    <message>
+        <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="49"/>
+        <source>Confirm</source>
+        <translation>Confirmar</translation>
     </message>
 </context>
 </TS>

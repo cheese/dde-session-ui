@@ -399,7 +399,7 @@
     <message>
         <location filename="../dde-notification-plugin/notifications/notificationsplugin.cpp" line="89"/>
         <source>No messages</source>
-        <translation type="unfinished"/>
+        <translation>Немає повідомлень</translation>
     </message>
     <message>
         <location filename="../dde-notification-plugin/notifications/notificationsplugin.cpp" line="235"/>
@@ -553,7 +553,7 @@
     </message>
     <message numerus="yes">
         <source>Please try again %n minute(s) later</source>
-        <translation type="vanished"><numerusform>Будь ласка, повторіть спробу за %n хвилину</numerusform><numerusform>Будь ласка, повторіть спробу за %n хвилини</numerusform><numerusform>Будь ласка, повторіть спробу за %n хвилин</numerusform><numerusform>Будь ласка, повторіть спробу за %n хвилину</numerusform></translation>
+        <translation type="vanished"><numerusform>Будь ласка, спробуйте знову за %n хвилину</numerusform><numerusform>Будь ласка, спробуйте знову за %n хвилини</numerusform><numerusform>Будь ласка, спробуйте знову за %n хвилин</numerusform><numerusform>Будь ласка, спробуйте знову за %n хвилину</numerusform></translation>
     </message>
     <message>
         <source>Enter your password to shut down</source>
@@ -616,6 +616,24 @@
         <location filename="../dde-lowpower/window.cpp" line="39"/>
         <source>Low battery, please plug in</source>
         <translation>Низький рівень заряду батареї, будь ласка, підключіть до мережі</translation>
+    </message>
+</context>
+<context>
+    <name>dcc::bluetooth::PinCodeDialog</name>
+    <message>
+        <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="39"/>
+        <source>The PIN for connecting to the Bluetooth device is:</source>
+        <translation>Пін-код для з&apos;єднання із пристроєм Bluetooth:</translation>
+    </message>
+    <message>
+        <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="47"/>
+        <source>Cancel</source>
+        <translation>Скасувати</translation>
+    </message>
+    <message>
+        <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="49"/>
+        <source>Confirm</source>
+        <translation>Підтвердити</translation>
     </message>
 </context>
 </TS>

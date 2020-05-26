@@ -553,7 +553,7 @@
     </message>
     <message numerus="yes">
         <source>Please try again %n minute(s) later</source>
-        <translation type="vanished"><numerusform>請在 %n 分鐘後重新嘗試</numerusform></translation>
+        <translation type="vanished"><numerusform>請在%n分鐘後重新嘗試</numerusform></translation>
     </message>
     <message>
         <source>Enter your password to shut down</source>
@@ -616,6 +616,24 @@
         <location filename="../dde-lowpower/window.cpp" line="39"/>
         <source>Low battery, please plug in</source>
         <translation>低電量，請接電源</translation>
+    </message>
+</context>
+<context>
+    <name>dcc::bluetooth::PinCodeDialog</name>
+    <message>
+        <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="39"/>
+        <source>The PIN for connecting to the Bluetooth device is:</source>
+        <translation>確認雙方藍牙配對 PIN 碼為：</translation>
+    </message>
+    <message>
+        <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="47"/>
+        <source>Cancel</source>
+        <translation>取消</translation>
+    </message>
+    <message>
+        <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="49"/>
+        <source>Confirm</source>
+        <translation>確認</translation>
     </message>
 </context>
 </TS>

@@ -175,7 +175,7 @@
     <message>
         <location filename="../dmemory-warning-dialog/src/dmemorywarningdialog.cpp" line="229"/>
         <source>Your current memory is sufficient enough, continue to run %1?</source>
-        <translation>ඔබගේ වර්තමාන මතකය ප්‍රමාණවත්ය, %1 ඉදිරියට ධාවනය කරන්නද?</translation>
+        <translation>ඔබගේ වර්තමාන මතකය ප්‍රමාණවත්ය, %1 ඉදිරියට ධාවනය කරන්නේද?</translation>
     </message>
     <message>
         <location filename="../dmemory-warning-dialog/src/dmemorywarningdialog.cpp" line="232"/>
@@ -185,7 +185,7 @@
     <message>
         <location filename="../dmemory-warning-dialog/src/dmemorywarningdialog.cpp" line="235"/>
         <source>Your current memory is sufficient enough, continue the operation?</source>
-        <translation>ඔබගේ වර්තමාන මතකය ප්‍රමාණවත්ය, මෙහෙයුම ඉදිරියට ධාවනය කරන්නද?</translation>
+        <translation>ඔබගේ වර්තමාන මතකය ප්‍රමාණවත්ය, මෙහෙයුම ඉදිරියට ධාවනය කරන්නේද?</translation>
     </message>
 </context>
 <context>
@@ -247,7 +247,7 @@
     <message>
         <location filename="../lightdm-deepin-greeter/greeterworkek.cpp" line="93"/>
         <source>Domain account</source>
-        <translation>Domain ගිණූම</translation>
+        <translation>වසම් ගිණුම</translation>
     </message>
     <message>
         <location filename="../lightdm-deepin-greeter/greeterworkek.cpp" line="249"/>
@@ -291,7 +291,7 @@
     <message>
         <location filename="../dde-lock/lockworker.cpp" line="98"/>
         <source>Domain account</source>
-        <translation>Domain ගිණූම</translation>
+        <translation>වසම් ගිණුම</translation>
     </message>
     <message>
         <location filename="../dde-lock/lockworker.cpp" line="221"/>
@@ -371,7 +371,7 @@
     <message>
         <location filename="../dnetwork-secret-dialog/networksecretdialog.cpp" line="174"/>
         <source>Wrong password, please enter again!</source>
-        <translation>වැරදි මුරපදයකි, කරුණාකර නැවත ඇතුළත් කරන්න!</translation>
+        <translation>වැරදි මුරපදයකි, කරුණාකර නැවතත් ඇතුළත් කරන්න!</translation>
     </message>
     <message>
         <location filename="../dnetwork-secret-dialog/networksecretdialog.cpp" line="114"/>
@@ -399,7 +399,7 @@
     <message>
         <location filename="../dde-notification-plugin/notifications/notificationsplugin.cpp" line="89"/>
         <source>No messages</source>
-        <translation type="unfinished"/>
+        <translation>පණිවිඩ නැත</translation>
     </message>
     <message>
         <location filename="../dde-notification-plugin/notifications/notificationsplugin.cpp" line="235"/>
@@ -553,7 +553,7 @@
     </message>
     <message numerus="yes">
         <source>Please try again %n minute(s) later</source>
-        <translation type="vanished"><numerusform>කරුණාකර මිනිත්තු(ව) %n කට පසුව නැවත උත්සාහ කරන්න</numerusform><numerusform>කරුණාකර මිනිත්තු(ව) %n කට පසුව නැවත උත්සාහ කරන්න</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
         <source>Enter your password to shut down</source>
@@ -579,7 +579,7 @@
     <message>
         <location filename="../dde-wm-chooser/wmchooser.cpp" line="68"/>
         <source>It has detected that you are using a virtual machine, which will affect the system performance and operation experience, for a smooth experience, Normal Mode is recommended</source>
-        <translation>ඔබ අතථ්‍ය යන්ත්‍රය(virtual machine) භාවිතා කරන බව අනාවරණය විය. එය පද්ධතියේ ක්‍රියාකාරීත්වය‍ට සහ මෙහෙයුම් අත්දැකීමට බලපානු ඇත, සුමට අත්දැකීමක් සඳහා සාමාන්‍ය ප්‍රකාරය භාවිතය යෝග්‍ය වේ</translation>
+        <translation>ඔබ අතථ්‍ය යන්ත්‍රය-virtual machine භාවිතා කරන බව අනාවරණය විය. එය පද්ධතියේ ක්‍රියාකාරීත්වය‍ට සහ මෙහෙයුම් අත්දැකීමට බලපානු ඇත, සුමට අත්දැකීමක් සඳහා සාමාන්‍ය ප්‍රකාරය භාවිතය යෝග්‍ය වේ</translation>
     </message>
     <message>
         <location filename="../dde-wm-chooser/wmchooser.cpp" line="71"/>
@@ -616,6 +616,24 @@
         <location filename="../dde-lowpower/window.cpp" line="39"/>
         <source>Low battery, please plug in</source>
         <translation>අඩු බැටරි ධාරිතාවක් පවතී, කරුණාකර විදුලි සැපයුමක් ලබා දෙන්න</translation>
+    </message>
+</context>
+<context>
+    <name>dcc::bluetooth::PinCodeDialog</name>
+    <message>
+        <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="39"/>
+        <source>The PIN for connecting to the Bluetooth device is:</source>
+        <translation>බ්ලූටූත් උපාංගයට සම්බන්ධ වීමේ PIN අංකය:</translation>
+    </message>
+    <message>
+        <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="47"/>
+        <source>Cancel</source>
+        <translation>අවලංගු කරන්න</translation>
+    </message>
+    <message>
+        <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="49"/>
+        <source>Confirm</source>
+        <translation>තහවුරු කරන්න</translation>
     </message>
 </context>
 </TS>

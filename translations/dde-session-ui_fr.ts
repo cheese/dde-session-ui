@@ -341,7 +341,7 @@
         <location filename="../dnetwork-secret-dialog/networksecretdialog.cpp" line="48"/>
         <location filename="../dnetwork-secret-dialog/networksecretdialog.cpp" line="49"/>
         <source>Key</source>
-        <translation>Clé</translation>
+        <translation>Clef</translation>
     </message>
     <message>
         <location filename="../dnetwork-secret-dialog/networksecretdialog.cpp" line="50"/>
@@ -399,12 +399,12 @@
     <message>
         <location filename="../dde-notification-plugin/notifications/notificationsplugin.cpp" line="89"/>
         <source>No messages</source>
-        <translation type="unfinished"/>
+        <translation>Aucun message</translation>
     </message>
     <message>
         <location filename="../dde-notification-plugin/notifications/notificationsplugin.cpp" line="235"/>
         <source>Turn off DND mode</source>
-        <translation>Éteindre le mode DND</translation>
+        <translation>Désactiver le mode DND</translation>
     </message>
     <message>
         <location filename="../dde-notification-plugin/notifications/notificationsplugin.cpp" line="235"/>
@@ -553,7 +553,7 @@
     </message>
     <message numerus="yes">
         <source>Please try again %n minute(s) later</source>
-        <translation type="vanished"><numerusform>Réessayez dans %n minute</numerusform><numerusform>Réessayez dans %n minutes</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
         <source>Enter your password to shut down</source>
@@ -579,14 +579,12 @@
     <message>
         <location filename="../dde-wm-chooser/wmchooser.cpp" line="68"/>
         <source>It has detected that you are using a virtual machine, which will affect the system performance and operation experience, for a smooth experience, Normal Mode is recommended</source>
-        <translation>Vous utilisez une machine virtuelle, ce qui affecte les performances du système, ainsi que l&apos;expérience utilisateur.
-Pour une utilisation optimale, il est recommandé d&apos;utiliser le mode normal</translation>
+        <translation>Vous utilisez une machine virtuelle, ce qui affecte les performances du système, ainsi que l&apos;expérience utilisateur. Pour une utilisation optimale, il est recommandé d&apos;utiliser le mode normal</translation>
     </message>
     <message>
         <location filename="../dde-wm-chooser/wmchooser.cpp" line="71"/>
         <source>Effect Mode: Have a delicate experience. Normal Mode: Enjoy the fast performance</source>
-        <translation>Mode effet : Pour un rendu esthétique amélioré. 
-Mode normal : Pour des performances élevées.</translation>
+        <translation>Mode effet : Pour un rendu esthétique amélioré.  Mode normal : Pour des performances élevées.</translation>
     </message>
     <message>
         <location filename="../dde-wm-chooser/wmchooser.cpp" line="64"/>
@@ -618,6 +616,24 @@ Mode normal : Pour des performances élevées.</translation>
         <location filename="../dde-lowpower/window.cpp" line="39"/>
         <source>Low battery, please plug in</source>
         <translation>Batterie faible, veuillez brancher votre appareil</translation>
+    </message>
+</context>
+<context>
+    <name>dcc::bluetooth::PinCodeDialog</name>
+    <message>
+        <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="39"/>
+        <source>The PIN for connecting to the Bluetooth device is:</source>
+        <translation>Le code PIN pour la connexion au périphérique Bluetooth est :</translation>
+    </message>
+    <message>
+        <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="47"/>
+        <source>Cancel</source>
+        <translation>Annuler</translation>
+    </message>
+    <message>
+        <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="49"/>
+        <source>Confirm</source>
+        <translation>Confirmer</translation>
     </message>
 </context>
 </TS>
