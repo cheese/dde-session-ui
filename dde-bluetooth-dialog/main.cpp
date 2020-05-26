@@ -1,13 +1,9 @@
 /*
- * Copyright (C) 2016 ~ 2018 Deepin Technology Co., Ltd.
+ * Copyright (C) 2018 ~ 2028 Deepin Technology Co., Ltd.
  *
- * Author:     sbw <sbw@sbw.so>
- *             kirigaya <kirigaya@mkacg.com>
- *             Hualet <mr.asianwang@gmail.com>
+ * Author:     xiaoyaobing <xiaoyaobing@uniontech.com>
  *
- * Maintainer: sbw <sbw@sbw.so>
- *             kirigaya <kirigaya@mkacg.com>
- *             Hualet <mr.asianwang@gmail.com>
+ * Maintainer: xiaoyaobing <xiaoyaobing@uniontech.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -28,7 +24,6 @@
 #include <QTranslator>
 #include "pincodedialog.h"
 
-
 DWIDGET_USE_NAMESPACE
 DCORE_USE_NAMESPACE
 
@@ -46,7 +41,6 @@ int main(int argc, char *argv[])
     QTranslator translator;
     translator.load("/usr/share/dde-session-ui/translations/dde-session-ui_" + QLocale::system().name());
     app.installTranslator(&translator);
-
 
     QStringList arguslist = app.arguments();
     if (arguslist.size() < 4) {
