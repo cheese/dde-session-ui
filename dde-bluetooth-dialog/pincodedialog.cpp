@@ -62,13 +62,14 @@ PinCodeDialog::PinCodeDialog(const QString &pinCode,  const QString &devicepath,
     m_titileLabel->setText(titilestr);
     m_pinCodeLabel->setText(pinCode);
 
-    qint64 msec = 60 * 1000 - QDateTime::currentMSecsSinceEpoch() + starttime.toLongLong();
+    qint64 msec = 25 * 1000 - QDateTime::currentMSecsSinceEpoch() + starttime.toLongLong();
     if (msec < 0){
         qDebug() << "timeout";
         exit(-2);
     }
     QTimer::singleShot(msec, this, [ = ]() {
         close();
+        m_bluetoothInter->Confirm(QDBusObjectPath(devicepath), false);
     });
 
     connect(m_bluetoothInter, &DBusBluetooth::AdapterPropertiesChanged, this, &PinCodeDialog::HandleBlutoothPower);
