@@ -2,22 +2,22 @@
 <context>
     <name>BubbleItem</name>
     <message>
-        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="197"/>
+        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="200"/>
         <source>Just Now</source>
         <translation>Ara mateix</translation>
     </message>
     <message>
-        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="199"/>
+        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="202"/>
         <source>%1 minutes ago</source>
         <translation>Fa %1 minuts</translation>
     </message>
     <message>
-        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="201"/>
+        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="204"/>
         <source>%1 hours ago</source>
         <translation>Fa %1 hores</translation>
     </message>
     <message>
-        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="204"/>
+        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="207"/>
         <source>Yesterday </source>
         <translation>Ahir</translation>
     </message>
@@ -25,20 +25,12 @@
 <context>
     <name>Content</name>
     <message>
-        <source>Chinese</source>
-        <translation type="vanished">Xinès</translation>
-    </message>
-    <message>
-        <source>English</source>
-        <translation type="vanished">Anglès</translation>
-    </message>
-    <message>
-        <location filename="../dde-license-dialog/content.cpp" line="47"/>
+        <location filename="../dde-license-dialog/content.cpp" line="224"/>
         <source>Cancel</source>
         <translation>Cancel·la</translation>
     </message>
     <message>
-        <location filename="../dde-license-dialog/content.cpp" line="48"/>
+        <location filename="../dde-license-dialog/content.cpp" line="225"/>
         <source>Confirm</source>
         <translation>Confirmeu-ho</translation>
     </message>
@@ -76,7 +68,7 @@
         <location filename="../dde-shutdown/view/contentwidget.cpp" line="401"/>
         <location filename="../dde-shutdown/view/contentwidget.cpp" line="542"/>
         <source>Log out</source>
-        <translation>Surt de la sessió</translation>
+        <translation>Tanca la sessió</translation>
     </message>
     <message>
         <location filename="../dde-shutdown/view/contentwidget.cpp" line="402"/>
@@ -206,12 +198,17 @@
 <context>
     <name>DisplayModeProvider</name>
     <message>
-        <location filename="../dde-osd/displaymodeprovider.cpp" line="176"/>
+        <location filename="../dde-osd/displaymodeprovider.cpp" line="184"/>
+        <source>Customize</source>
+        <translation>Personalitzeu-ho</translation>
+    </message>
+    <message>
+        <location filename="../dde-osd/displaymodeprovider.cpp" line="186"/>
         <source>Duplicate</source>
         <translation>Duplica</translation>
     </message>
     <message>
-        <location filename="../dde-osd/displaymodeprovider.cpp" line="178"/>
+        <location filename="../dde-osd/displaymodeprovider.cpp" line="188"/>
         <source>Extend</source>
         <translation>Estén</translation>
     </message>
@@ -221,7 +218,7 @@
     <message>
         <location filename="../dde-offline-upgrader/frame.cpp" line="54"/>
         <source>Please don&apos;t power off or unplug your machine</source>
-        <translation>Si us plau, no atureu o desendolleu la màquina.</translation>
+        <translation>Si us plau, no atureu ni desendolleu la màquina.</translation>
     </message>
     <message>
         <location filename="../dde-offline-upgrader/frame.cpp" line="136"/>
@@ -306,7 +303,7 @@
     <message>
         <location filename="../dde-shutdown/view/multiuserswarningview.cpp" line="129"/>
         <source>The above users are still logged in and data will be lost due to reboot, are you sure you want to reboot?</source>
-        <translation>Els usuaris anteriors encara tenen la sessió oberta i se&apos;n perdran les dades a causa del reinici. Segur que voleu reiniciar-me?</translation>
+        <translation>Els usuaris anteriors encara tenen la sessió oberta i se&apos;n perdran les dades a causa del reinici. Segur que voleu que em reiniciï?</translation>
     </message>
     <message>
         <location filename="../dde-shutdown/view/multiuserswarningview.cpp" line="123"/>
@@ -388,7 +385,7 @@
 <context>
     <name>NotifyCenterWidget</name>
     <message>
-        <location filename="../dde-osd/notification-center/notifycenterwidget.cpp" line="89"/>
+        <location filename="../dde-osd/notification-center/notifycenterwidget.cpp" line="90"/>
         <source>Notification Center</source>
         <translation>Centre de notificacions</translation>
     </message>
@@ -425,29 +422,6 @@
         <location filename="../dmemory-warning-dialog/src/processinfomodel.cpp" line="111"/>
         <source>End</source>
         <translation>Acaba</translation>
-    </message>
-</context>
-<context>
-    <name>ShutdownWidget</name>
-    <message>
-        <source>Shut down</source>
-        <translation type="vanished">Atura&apos;t</translation>
-    </message>
-    <message>
-        <source>Login</source>
-        <translation type="vanished">Inicia la sessió</translation>
-    </message>
-    <message>
-        <source>Reboot</source>
-        <translation type="vanished">Reinicia</translation>
-    </message>
-    <message>
-        <source>Suspend</source>
-        <translation type="vanished">Suspèn</translation>
-    </message>
-    <message>
-        <source>Hibernate</source>
-        <translation type="vanished">Hiberna</translation>
     </message>
 </context>
 <context>
@@ -514,25 +488,6 @@
     </message>
 </context>
 <context>
-    <name>UserInputWidget</name>
-    <message>
-        <source>Login</source>
-        <translation type="vanished">Inicia la sessió</translation>
-    </message>
-    <message numerus="yes">
-        <source>Please try again %n minute(s) later</source>
-        <translation type="vanished"><numerusform>Si us plau, torneu-ho a intentar d&apos;aquí a %n minut.</numerusform><numerusform>Si us plau, torneu-ho a intentar d&apos;aquí a %n minuts.</numerusform></translation>
-    </message>
-    <message>
-        <source>Enter your password to shut down</source>
-        <translation type="vanished">Escriviu la contrasenya per aturar-me.</translation>
-    </message>
-    <message>
-        <source>Enter your password to reboot</source>
-        <translation type="vanished">Escriviu la contrasenya per reiniciar.</translation>
-    </message>
-</context>
-<context>
     <name>WMChooser</name>
     <message>
         <location filename="../dde-wm-chooser/wmchooser.cpp" line="57"/>
@@ -591,7 +546,7 @@
     <message>
         <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="43"/>
         <source>The PIN for connecting to the Bluetooth device is:</source>
-        <translation>El codi per connectar al dispositiu Bluetooth és:</translation>
+        <translation>El codi per connectar al dispositiu de Bluetooth és el següent:</translation>
     </message>
     <message>
         <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="51"/>

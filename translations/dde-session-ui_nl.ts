@@ -2,22 +2,22 @@
 <context>
     <name>BubbleItem</name>
     <message>
-        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="197"/>
+        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="200"/>
         <source>Just Now</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="199"/>
+        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="202"/>
         <source>%1 minutes ago</source>
         <translation>%1 minuten geleden</translation>
     </message>
     <message>
-        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="201"/>
+        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="204"/>
         <source>%1 hours ago</source>
         <translation>%1 uren geleden</translation>
     </message>
     <message>
-        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="204"/>
+        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="207"/>
         <source>Yesterday </source>
         <translation>Gisteren</translation>
     </message>
@@ -25,20 +25,12 @@
 <context>
     <name>Content</name>
     <message>
-        <source>Chinese</source>
-        <translation type="vanished">Chinees</translation>
-    </message>
-    <message>
-        <source>English</source>
-        <translation type="vanished">Engels</translation>
-    </message>
-    <message>
-        <location filename="../dde-license-dialog/content.cpp" line="47"/>
+        <location filename="../dde-license-dialog/content.cpp" line="224"/>
         <source>Cancel</source>
         <translation>Annuleren</translation>
     </message>
     <message>
-        <location filename="../dde-license-dialog/content.cpp" line="48"/>
+        <location filename="../dde-license-dialog/content.cpp" line="225"/>
         <source>Confirm</source>
         <translation>Bevestigen</translation>
     </message>
@@ -87,7 +79,7 @@
         <location filename="../dde-shutdown/view/contentwidget.cpp" line="334"/>
         <location filename="../dde-shutdown/view/contentwidget.cpp" line="533"/>
         <source>Suspend</source>
-        <translation>Onderbreken</translation>
+        <translation>Pauzestand</translation>
     </message>
     <message>
         <location filename="../dde-shutdown/view/contentwidget.cpp" line="326"/>
@@ -206,12 +198,17 @@
 <context>
     <name>DisplayModeProvider</name>
     <message>
-        <location filename="../dde-osd/displaymodeprovider.cpp" line="176"/>
+        <location filename="../dde-osd/displaymodeprovider.cpp" line="184"/>
+        <source>Customize</source>
+        <translation>Aanpassen</translation>
+    </message>
+    <message>
+        <location filename="../dde-osd/displaymodeprovider.cpp" line="186"/>
         <source>Duplicate</source>
         <translation>Dupliceer</translation>
     </message>
     <message>
-        <location filename="../dde-osd/displaymodeprovider.cpp" line="178"/>
+        <location filename="../dde-osd/displaymodeprovider.cpp" line="188"/>
         <source>Extend</source>
         <translation>Uitbreiden</translation>
     </message>
@@ -270,7 +267,7 @@
     <message>
         <location filename="../dde-osd/kblayoutindicator.cpp" line="159"/>
         <source>Add keyboard layout</source>
-        <translation>Indeling van het toetsenbord toevoegen</translation>
+        <translation>Toetsenbordindeling toevoegen</translation>
     </message>
 </context>
 <context>
@@ -388,7 +385,7 @@
 <context>
     <name>NotifyCenterWidget</name>
     <message>
-        <location filename="../dde-osd/notification-center/notifycenterwidget.cpp" line="89"/>
+        <location filename="../dde-osd/notification-center/notifycenterwidget.cpp" line="90"/>
         <source>Notification Center</source>
         <translation type="unfinished"/>
     </message>
@@ -425,29 +422,6 @@
         <location filename="../dmemory-warning-dialog/src/processinfomodel.cpp" line="111"/>
         <source>End</source>
         <translation>Beëindigen</translation>
-    </message>
-</context>
-<context>
-    <name>ShutdownWidget</name>
-    <message>
-        <source>Shut down</source>
-        <translation type="vanished">Afsluiten</translation>
-    </message>
-    <message>
-        <source>Login</source>
-        <translation type="vanished">Inloggen</translation>
-    </message>
-    <message>
-        <source>Reboot</source>
-        <translation type="vanished">Herstarten</translation>
-    </message>
-    <message>
-        <source>Suspend</source>
-        <translation type="vanished">Slaapstand</translation>
-    </message>
-    <message>
-        <source>Hibernate</source>
-        <translation type="vanished">Slaapstand</translation>
     </message>
 </context>
 <context>
@@ -514,25 +488,6 @@
     </message>
 </context>
 <context>
-    <name>UserInputWidget</name>
-    <message>
-        <source>Login</source>
-        <translation type="vanished">Inloggen</translation>
-    </message>
-    <message numerus="yes">
-        <source>Please try again %n minute(s) later</source>
-        <translation type="vanished"><numerusform>Gelieve binnen %n minuut opnieuw te proberen</numerusform><numerusform>Gelieve binnen %n minuten opnieuw te proberen</numerusform></translation>
-    </message>
-    <message>
-        <source>Enter your password to shut down</source>
-        <translation type="vanished">Voer uw wachtwoord in zodat de computer kan worden afgesloten</translation>
-    </message>
-    <message>
-        <source>Enter your password to reboot</source>
-        <translation type="vanished">Voer uw wachtwoord in om de computer opnieuw op te starten</translation>
-    </message>
-</context>
-<context>
     <name>WMChooser</name>
     <message>
         <location filename="../dde-wm-chooser/wmchooser.cpp" line="57"/>
@@ -575,7 +530,7 @@
     <message>
         <location filename="../dde-warning-dialog/warningdialog.cpp" line="42"/>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation>Oké</translation>
     </message>
 </context>
 <context>

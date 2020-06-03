@@ -2,22 +2,22 @@
 <context>
     <name>BubbleItem</name>
     <message>
-        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="197"/>
+        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="200"/>
         <source>Just Now</source>
         <translation>Juuri nyt</translation>
     </message>
     <message>
-        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="199"/>
+        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="202"/>
         <source>%1 minutes ago</source>
         <translation>%1 minuuttia sitten</translation>
     </message>
     <message>
-        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="201"/>
+        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="204"/>
         <source>%1 hours ago</source>
         <translation>%1 tuntia sitten</translation>
     </message>
     <message>
-        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="204"/>
+        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="207"/>
         <source>Yesterday </source>
         <translation>Eilen</translation>
     </message>
@@ -25,20 +25,12 @@
 <context>
     <name>Content</name>
     <message>
-        <source>Chinese</source>
-        <translation type="vanished">Kiina</translation>
-    </message>
-    <message>
-        <source>English</source>
-        <translation type="vanished">Englanti</translation>
-    </message>
-    <message>
-        <location filename="../dde-license-dialog/content.cpp" line="47"/>
+        <location filename="../dde-license-dialog/content.cpp" line="224"/>
         <source>Cancel</source>
         <translation>Peruuta</translation>
     </message>
     <message>
-        <location filename="../dde-license-dialog/content.cpp" line="48"/>
+        <location filename="../dde-license-dialog/content.cpp" line="225"/>
         <source>Confirm</source>
         <translation>Vahvista</translation>
     </message>
@@ -206,12 +198,17 @@
 <context>
     <name>DisplayModeProvider</name>
     <message>
-        <location filename="../dde-osd/displaymodeprovider.cpp" line="176"/>
-        <source>Duplicate</source>
-        <translation>Monista</translation>
+        <location filename="../dde-osd/displaymodeprovider.cpp" line="184"/>
+        <source>Customize</source>
+        <translation>Muokkaa</translation>
     </message>
     <message>
-        <location filename="../dde-osd/displaymodeprovider.cpp" line="178"/>
+        <location filename="../dde-osd/displaymodeprovider.cpp" line="186"/>
+        <source>Duplicate</source>
+        <translation>Kahdenna</translation>
+    </message>
+    <message>
+        <location filename="../dde-osd/displaymodeprovider.cpp" line="188"/>
         <source>Extend</source>
         <translation>Laajenna</translation>
     </message>
@@ -270,7 +267,7 @@
     <message>
         <location filename="../dde-osd/kblayoutindicator.cpp" line="159"/>
         <source>Add keyboard layout</source>
-        <translation>Lisää näppäimistöasettelu</translation>
+        <translation>Lisää näppäimistön asettelu</translation>
     </message>
 </context>
 <context>
@@ -283,12 +280,12 @@
     <message>
         <location filename="../dde-lock/lockworker.cpp" line="221"/>
         <source>Fingerprint verification timed out, please enter your password manually</source>
-        <translation>Sormenjälkitunnistus aikakatkaistiin, ole hyvä ja kirjoita salasanasi manuaalisesti</translation>
+        <translation>Sormenjäljen tarkistus aikakatkaistiin, ole hyvä ja anna salasana manuaalisesti</translation>
     </message>
     <message>
         <location filename="../dde-lock/lockworker.cpp" line="239"/>
         <source>Failed to match fingerprint</source>
-        <translation>Sormenjäljen täsmääminen epäonnistui</translation>
+        <translation>Sormenjälkeä ei tunnistettu</translation>
     </message>
     <message>
         <location filename="../dde-lock/lockworker.cpp" line="274"/>
@@ -338,7 +335,7 @@
     <message>
         <location filename="../dnetwork-secret-dialog/networksecretdialog.cpp" line="58"/>
         <source>Private Pwd</source>
-        <translation>Avaimen salasana</translation>
+        <translation>Yksityinen salasana</translation>
     </message>
     <message>
         <location filename="../dnetwork-secret-dialog/networksecretdialog.cpp" line="61"/>
@@ -353,7 +350,7 @@
     <message>
         <location filename="../dnetwork-secret-dialog/networksecretdialog.cpp" line="105"/>
         <source>Password required to connect &lt;font color=&quot;%1&quot;&gt;%2&lt;/font&gt;</source>
-        <translation>Yhteyden &lt;font color=&quot;%1&quot;&gt;%2&lt;/font&gt;muodostamiseen vaaditaan salasana</translation>
+        <translation>Yhdistämiseen &lt;font color=&quot;%1&quot;&gt;%2&lt;/font&gt; vaaditaan salasana</translation>
     </message>
     <message>
         <location filename="../dnetwork-secret-dialog/networksecretdialog.cpp" line="174"/>
@@ -388,7 +385,7 @@
 <context>
     <name>NotifyCenterWidget</name>
     <message>
-        <location filename="../dde-osd/notification-center/notifycenterwidget.cpp" line="89"/>
+        <location filename="../dde-osd/notification-center/notifycenterwidget.cpp" line="90"/>
         <source>Notification Center</source>
         <translation>Ilmoituskeskus</translation>
     </message>
@@ -425,29 +422,6 @@
         <location filename="../dmemory-warning-dialog/src/processinfomodel.cpp" line="111"/>
         <source>End</source>
         <translation>Lopeta</translation>
-    </message>
-</context>
-<context>
-    <name>ShutdownWidget</name>
-    <message>
-        <source>Shut down</source>
-        <translation type="vanished">Sammuta</translation>
-    </message>
-    <message>
-        <source>Login</source>
-        <translation type="vanished">Kirjaudu</translation>
-    </message>
-    <message>
-        <source>Reboot</source>
-        <translation type="vanished">Käynnistä</translation>
-    </message>
-    <message>
-        <source>Suspend</source>
-        <translation type="vanished">Valmiustila</translation>
-    </message>
-    <message>
-        <source>Hibernate</source>
-        <translation type="vanished">Lepotila</translation>
     </message>
 </context>
 <context>
@@ -511,25 +485,6 @@
         <location filename="../dde-welcome/updatecontent.cpp" line="46"/>
         <source>Enter</source>
         <translation>OK</translation>
-    </message>
-</context>
-<context>
-    <name>UserInputWidget</name>
-    <message>
-        <source>Login</source>
-        <translation type="vanished">Kirjaudu</translation>
-    </message>
-    <message numerus="yes">
-        <source>Please try again %n minute(s) later</source>
-        <translation type="vanished"><numerusform>Please try again %n minute(s) later</numerusform><numerusform>Yritä uudelleen %n minuutti(a) myöhemmin</numerusform></translation>
-    </message>
-    <message>
-        <source>Enter your password to shut down</source>
-        <translation type="vanished">Anna salasanasi järjestelmän sulkemiseksi</translation>
-    </message>
-    <message>
-        <source>Enter your password to reboot</source>
-        <translation type="vanished">Anna salasanasi järjestelmän uudelleenkäynnistämiseksi</translation>
     </message>
 </context>
 <context>

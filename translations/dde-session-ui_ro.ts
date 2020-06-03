@@ -2,22 +2,22 @@
 <context>
     <name>BubbleItem</name>
     <message>
-        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="197"/>
+        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="200"/>
         <source>Just Now</source>
         <translation>Chiar acum</translation>
     </message>
     <message>
-        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="199"/>
+        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="202"/>
         <source>%1 minutes ago</source>
         <translation>%1 minute în urmă</translation>
     </message>
     <message>
-        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="201"/>
+        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="204"/>
         <source>%1 hours ago</source>
         <translation>%1 ore în urmă</translation>
     </message>
     <message>
-        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="204"/>
+        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="207"/>
         <source>Yesterday </source>
         <translation>Ieri</translation>
     </message>
@@ -25,22 +25,14 @@
 <context>
     <name>Content</name>
     <message>
-        <source>Chinese</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>English</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../dde-license-dialog/content.cpp" line="47"/>
+        <location filename="../dde-license-dialog/content.cpp" line="224"/>
         <source>Cancel</source>
-        <translation>Anulare</translation>
+        <translation>Anulează</translation>
     </message>
     <message>
-        <location filename="../dde-license-dialog/content.cpp" line="48"/>
+        <location filename="../dde-license-dialog/content.cpp" line="225"/>
         <source>Confirm</source>
-        <translation>Confirm</translation>
+        <translation>Confirmare</translation>
     </message>
 </context>
 <context>
@@ -122,7 +114,7 @@
         <location filename="../dmemory-warning-dialog/src/dmemorywarningdialog.cpp" line="49"/>
         <location filename="../dmemory-warning-dialog/src/dmemorywarningdialog.cpp" line="86"/>
         <source>Cancel</source>
-        <translation>Anulare</translation>
+        <translation>Anulează</translation>
     </message>
     <message>
         <location filename="../dmemory-warning-dialog/src/dmemorywarningdialog.cpp" line="51"/>
@@ -206,12 +198,17 @@
 <context>
     <name>DisplayModeProvider</name>
     <message>
-        <location filename="../dde-osd/displaymodeprovider.cpp" line="176"/>
+        <location filename="../dde-osd/displaymodeprovider.cpp" line="184"/>
+        <source>Customize</source>
+        <translation>Personalizare</translation>
+    </message>
+    <message>
+        <location filename="../dde-osd/displaymodeprovider.cpp" line="186"/>
         <source>Duplicate</source>
         <translation>Duplicare</translation>
     </message>
     <message>
-        <location filename="../dde-osd/displaymodeprovider.cpp" line="178"/>
+        <location filename="../dde-osd/displaymodeprovider.cpp" line="188"/>
         <source>Extend</source>
         <translation>Extindere</translation>
     </message>
@@ -283,12 +280,12 @@
     <message>
         <location filename="../dde-lock/lockworker.cpp" line="221"/>
         <source>Fingerprint verification timed out, please enter your password manually</source>
-        <translation>Verificarea prin amprentă a expirat, vă rugăm să vă introduceți parola manual</translation>
+        <translation>Verificarea prin amprentă a expirat, vă rugăm să introduceți o parolă manuală</translation>
     </message>
     <message>
         <location filename="../dde-lock/lockworker.cpp" line="239"/>
         <source>Failed to match fingerprint</source>
-        <translation>Nu am reușit să verificăm amprenta</translation>
+        <translation>Potrivire amprenta eşuată</translation>
     </message>
     <message>
         <location filename="../dde-lock/lockworker.cpp" line="274"/>
@@ -301,7 +298,7 @@
     <message>
         <location filename="../dde-shutdown/view/multiuserswarningview.cpp" line="44"/>
         <source>Cancel</source>
-        <translation>Anulare</translation>
+        <translation>Anulează</translation>
     </message>
     <message>
         <location filename="../dde-shutdown/view/multiuserswarningview.cpp" line="129"/>
@@ -353,17 +350,17 @@
     <message>
         <location filename="../dnetwork-secret-dialog/networksecretdialog.cpp" line="105"/>
         <source>Password required to connect &lt;font color=&quot;%1&quot;&gt;%2&lt;/font&gt;</source>
-        <translation type="unfinished"/>
+        <translation>Parolă necesară pentru conexiune &lt;font color=&quot;%1&quot;&gt;%2&lt;/font&gt;</translation>
     </message>
     <message>
         <location filename="../dnetwork-secret-dialog/networksecretdialog.cpp" line="174"/>
         <source>Wrong password, please enter again!</source>
-        <translation type="unfinished"/>
+        <translation>Parolă eronată, te rog reîncearcă</translation>
     </message>
     <message>
         <location filename="../dnetwork-secret-dialog/networksecretdialog.cpp" line="114"/>
         <source>Cancel</source>
-        <translation>Anulare</translation>
+        <translation>Anulează</translation>
     </message>
     <message>
         <location filename="../dnetwork-secret-dialog/networksecretdialog.cpp" line="114"/>
@@ -388,7 +385,7 @@
 <context>
     <name>NotifyCenterWidget</name>
     <message>
-        <location filename="../dde-osd/notification-center/notifycenterwidget.cpp" line="89"/>
+        <location filename="../dde-osd/notification-center/notifycenterwidget.cpp" line="90"/>
         <source>Notification Center</source>
         <translation>Centru Notificări</translation>
     </message>
@@ -425,29 +422,6 @@
         <location filename="../dmemory-warning-dialog/src/processinfomodel.cpp" line="111"/>
         <source>End</source>
         <translation>Sfârșit</translation>
-    </message>
-</context>
-<context>
-    <name>ShutdownWidget</name>
-    <message>
-        <source>Shut down</source>
-        <translation type="vanished">Închidere</translation>
-    </message>
-    <message>
-        <source>Login</source>
-        <translation type="vanished">Autentificare</translation>
-    </message>
-    <message>
-        <source>Reboot</source>
-        <translation type="vanished">Repornire</translation>
-    </message>
-    <message>
-        <source>Suspend</source>
-        <translation type="vanished">Suspendare</translation>
-    </message>
-    <message>
-        <source>Hibernate</source>
-        <translation type="vanished">Hibernare</translation>
     </message>
 </context>
 <context>
@@ -514,25 +488,6 @@
     </message>
 </context>
 <context>
-    <name>UserInputWidget</name>
-    <message>
-        <source>Login</source>
-        <translation type="vanished">Autentificare</translation>
-    </message>
-    <message numerus="yes">
-        <source>Please try again %n minute(s) later</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
-    </message>
-    <message>
-        <source>Enter your password to shut down</source>
-        <translation type="vanished">Introdu parolă pentru a închide</translation>
-    </message>
-    <message>
-        <source>Enter your password to reboot</source>
-        <translation type="vanished">Introdu parolă pentru a reporni</translation>
-    </message>
-</context>
-<context>
     <name>WMChooser</name>
     <message>
         <location filename="../dde-wm-chooser/wmchooser.cpp" line="57"/>
@@ -575,7 +530,7 @@
     <message>
         <location filename="../dde-warning-dialog/warningdialog.cpp" line="42"/>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation>Ok</translation>
     </message>
 </context>
 <context>

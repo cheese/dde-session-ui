@@ -2,22 +2,22 @@
 <context>
     <name>BubbleItem</name>
     <message>
-        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="197"/>
+        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="200"/>
         <source>Just Now</source>
         <translation>Hemen Şimdi</translation>
     </message>
     <message>
-        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="199"/>
+        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="202"/>
         <source>%1 minutes ago</source>
         <translation>%1 dakika önce</translation>
     </message>
     <message>
-        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="201"/>
+        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="204"/>
         <source>%1 hours ago</source>
         <translation>%1 saat önce</translation>
     </message>
     <message>
-        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="204"/>
+        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="207"/>
         <source>Yesterday </source>
         <translation>Dün</translation>
     </message>
@@ -25,20 +25,12 @@
 <context>
     <name>Content</name>
     <message>
-        <source>Chinese</source>
-        <translation type="vanished">Çince</translation>
-    </message>
-    <message>
-        <source>English</source>
-        <translation type="vanished">İngilizce</translation>
-    </message>
-    <message>
-        <location filename="../dde-license-dialog/content.cpp" line="47"/>
+        <location filename="../dde-license-dialog/content.cpp" line="224"/>
         <source>Cancel</source>
         <translation>İptal</translation>
     </message>
     <message>
-        <location filename="../dde-license-dialog/content.cpp" line="48"/>
+        <location filename="../dde-license-dialog/content.cpp" line="225"/>
         <source>Confirm</source>
         <translation>Onayla</translation>
     </message>
@@ -167,17 +159,17 @@
     <message>
         <location filename="../dmemory-warning-dialog/src/dmemorywarningdialog.cpp" line="229"/>
         <source>Your current memory is sufficient enough, continue to run %1?</source>
-        <translation>Geçerli bellek yeterli %1 çalıştırılmaya devam edilsin mi?</translation>
+        <translation>Mevcut bellek yeterli, çalıştırılmaya devam edilsin mi %1?</translation>
     </message>
     <message>
         <location filename="../dmemory-warning-dialog/src/dmemorywarningdialog.cpp" line="232"/>
         <source>Your current memory is sufficient enough, continue to open browser tab?</source>
-        <translation>Geçerli bellek yeterli, tarayıcı sekmesi açılmaya devam edilsin mi?</translation>
+        <translation>Mevcut bellek yeterli, tarayıcı sekmesini açmaya devam edilsin mi?</translation>
     </message>
     <message>
         <location filename="../dmemory-warning-dialog/src/dmemorywarningdialog.cpp" line="235"/>
         <source>Your current memory is sufficient enough, continue the operation?</source>
-        <translation>Geçerli bellek yeterli, çalışmaya devam edilsin mi?</translation>
+        <translation>Mevcut bellek yeterli, çalışmaya devam edilsin mi?</translation>
     </message>
 </context>
 <context>
@@ -206,12 +198,17 @@
 <context>
     <name>DisplayModeProvider</name>
     <message>
-        <location filename="../dde-osd/displaymodeprovider.cpp" line="176"/>
+        <location filename="../dde-osd/displaymodeprovider.cpp" line="184"/>
+        <source>Customize</source>
+        <translation>Özelleştir</translation>
+    </message>
+    <message>
+        <location filename="../dde-osd/displaymodeprovider.cpp" line="186"/>
         <source>Duplicate</source>
         <translation>Çoğalt</translation>
     </message>
     <message>
-        <location filename="../dde-osd/displaymodeprovider.cpp" line="178"/>
+        <location filename="../dde-osd/displaymodeprovider.cpp" line="188"/>
         <source>Extend</source>
         <translation>Genişlet</translation>
     </message>
@@ -283,12 +280,12 @@
     <message>
         <location filename="../dde-lock/lockworker.cpp" line="221"/>
         <source>Fingerprint verification timed out, please enter your password manually</source>
-        <translation>Parmak izi doğrulaması zaman aşımına uğradı, lütfen parolayı el ile yazın</translation>
+        <translation>Parmak izi doğrulama zaman aşımına uğradı, lütfen parolanızı elle girin</translation>
     </message>
     <message>
         <location filename="../dde-lock/lockworker.cpp" line="239"/>
         <source>Failed to match fingerprint</source>
-        <translation>Eşleşen bir parmak izi bulunamadı</translation>
+        <translation>Parmak izi eşleştirilemedi</translation>
     </message>
     <message>
         <location filename="../dde-lock/lockworker.cpp" line="274"/>
@@ -306,7 +303,7 @@
     <message>
         <location filename="../dde-shutdown/view/multiuserswarningview.cpp" line="129"/>
         <source>The above users are still logged in and data will be lost due to reboot, are you sure you want to reboot?</source>
-        <translation>Yukarıdaki kullanıcılar oturum açmış ve yeniden başlatma nedeniyle veriler kaybolacak, yeniden başlatmak istediğinize emin misiniz?</translation>
+        <translation>Yukarıdaki kullanıcıların oturumu açık ve yeniden başlatılınca veriler kaybolacak, yeniden başlatmak istediğinize emin misiniz?</translation>
     </message>
     <message>
         <location filename="../dde-shutdown/view/multiuserswarningview.cpp" line="123"/>
@@ -388,7 +385,7 @@
 <context>
     <name>NotifyCenterWidget</name>
     <message>
-        <location filename="../dde-osd/notification-center/notifycenterwidget.cpp" line="89"/>
+        <location filename="../dde-osd/notification-center/notifycenterwidget.cpp" line="90"/>
         <source>Notification Center</source>
         <translation>Bildirim Merkezi</translation>
     </message>
@@ -428,34 +425,11 @@
     </message>
 </context>
 <context>
-    <name>ShutdownWidget</name>
-    <message>
-        <source>Shut down</source>
-        <translation type="vanished">Kapat</translation>
-    </message>
-    <message>
-        <source>Login</source>
-        <translation type="vanished">Oturum aç</translation>
-    </message>
-    <message>
-        <source>Reboot</source>
-        <translation type="vanished">Yeniden başlat</translation>
-    </message>
-    <message>
-        <source>Suspend</source>
-        <translation type="vanished">Askıya al</translation>
-    </message>
-    <message>
-        <source>Hibernate</source>
-        <translation type="vanished">Uyut</translation>
-    </message>
-</context>
-<context>
     <name>SuspendDialog</name>
     <message>
         <location filename="../dde-suspend-dialog/suspenddialog.cpp" line="39"/>
         <source>External monitor detected, suspend?</source>
-        <translation>Dış ekran algılandı, askıya alınsın mı?</translation>
+        <translation>Harici ekran algılandı, askıya alınsın mı?</translation>
     </message>
     <message>
         <location filename="../dde-suspend-dialog/suspenddialog.cpp" line="39"/>
@@ -492,7 +466,7 @@
     <message>
         <location filename="../dde-lock/timewidget.cpp" line="70"/>
         <source>yyyy-MM-dd dddd</source>
-        <translation>dd.MM.yyyy dddd</translation>
+        <translation>yyyy-MM-dd dddd</translation>
     </message>
 </context>
 <context>
@@ -505,31 +479,12 @@
     <message>
         <location filename="../dde-welcome/updatecontent.cpp" line="45"/>
         <source>Current Edition:</source>
-        <translation>Geçerli Sürüm:</translation>
+        <translation>Mevcut Sürüm:</translation>
     </message>
     <message>
         <location filename="../dde-welcome/updatecontent.cpp" line="46"/>
         <source>Enter</source>
         <translation>Giriş</translation>
-    </message>
-</context>
-<context>
-    <name>UserInputWidget</name>
-    <message>
-        <source>Login</source>
-        <translation type="vanished">Oturum aç</translation>
-    </message>
-    <message numerus="yes">
-        <source>Please try again %n minute(s) later</source>
-        <translation type="vanished"><numerusform>Lütfen %n dakika sonra yeniden deneyin</numerusform><numerusform>Lütfen %n dakika sonra yeniden deneyin</numerusform></translation>
-    </message>
-    <message>
-        <source>Enter your password to shut down</source>
-        <translation type="vanished">Kapatmak için parolanızı yazın</translation>
-    </message>
-    <message>
-        <source>Enter your password to reboot</source>
-        <translation type="vanished">Yeniden başlatmak için parolanızı yazın</translation>
     </message>
 </context>
 <context>

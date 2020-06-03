@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="en" sourcelanguage="en">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="en" sourcelanguage="en" version="2.1">
 <context>
     <name>BubbleItem</name>
     <message>
@@ -26,14 +24,6 @@
 </context>
 <context>
     <name>Content</name>
-    <message>
-        <source>Chinese</source>
-        <translation type="vanished">Chinese</translation>
-    </message>
-    <message>
-        <source>English</source>
-        <translation type="vanished">English</translation>
-    </message>
     <message>
         <location filename="../dde-license-dialog/content.cpp" line="224"/>
         <source>Cancel</source>
@@ -210,7 +200,7 @@
     <message>
         <location filename="../dde-osd/displaymodeprovider.cpp" line="184"/>
         <source>Customize</source>
-        <translation type="unfinished"></translation>
+        <translation>Customize</translation>
     </message>
     <message>
         <location filename="../dde-osd/displaymodeprovider.cpp" line="186"/>
@@ -435,29 +425,6 @@
     </message>
 </context>
 <context>
-    <name>ShutdownWidget</name>
-    <message>
-        <source>Shut down</source>
-        <translation type="vanished">Shut down</translation>
-    </message>
-    <message>
-        <source>Login</source>
-        <translation type="vanished">Login</translation>
-    </message>
-    <message>
-        <source>Reboot</source>
-        <translation type="vanished">Reboot</translation>
-    </message>
-    <message>
-        <source>Suspend</source>
-        <translation type="vanished">Suspend</translation>
-    </message>
-    <message>
-        <source>Hibernate</source>
-        <translation type="vanished">Hibernate</translation>
-    </message>
-</context>
-<context>
     <name>SuspendDialog</name>
     <message>
         <location filename="../dde-suspend-dialog/suspenddialog.cpp" line="39"/>
@@ -518,28 +485,6 @@
         <location filename="../dde-welcome/updatecontent.cpp" line="46"/>
         <source>Enter</source>
         <translation>Enter</translation>
-    </message>
-</context>
-<context>
-    <name>UserInputWidget</name>
-    <message>
-        <source>Login</source>
-        <translation type="vanished">Login</translation>
-    </message>
-    <message numerus="yes">
-        <source>Please try again %n minute(s) later</source>
-        <translation type="vanished">
-            <numerusform>Please try again %n minute(s) later</numerusform>
-            <numerusform>Please try again %n minute(s) later</numerusform>
-        </translation>
-    </message>
-    <message>
-        <source>Enter your password to shut down</source>
-        <translation type="vanished">Enter your password to shut down</translation>
-    </message>
-    <message>
-        <source>Enter your password to reboot</source>
-        <translation type="vanished">Enter your password to reboot</translation>
     </message>
 </context>
 <context>

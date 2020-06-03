@@ -2,22 +2,22 @@
 <context>
     <name>BubbleItem</name>
     <message>
-        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="197"/>
+        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="200"/>
         <source>Just Now</source>
         <translation>Právě teď</translation>
     </message>
     <message>
-        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="199"/>
+        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="202"/>
         <source>%1 minutes ago</source>
         <translation>Před %1 minutami</translation>
     </message>
     <message>
-        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="201"/>
+        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="204"/>
         <source>%1 hours ago</source>
         <translation>Před %1 hodinami</translation>
     </message>
     <message>
-        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="204"/>
+        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="207"/>
         <source>Yesterday </source>
         <translation>Včera</translation>
     </message>
@@ -25,20 +25,12 @@
 <context>
     <name>Content</name>
     <message>
-        <source>Chinese</source>
-        <translation type="vanished">čínština</translation>
-    </message>
-    <message>
-        <source>English</source>
-        <translation type="vanished">angličtina</translation>
-    </message>
-    <message>
-        <location filename="../dde-license-dialog/content.cpp" line="47"/>
+        <location filename="../dde-license-dialog/content.cpp" line="224"/>
         <source>Cancel</source>
         <translation>Storno</translation>
     </message>
     <message>
-        <location filename="../dde-license-dialog/content.cpp" line="48"/>
+        <location filename="../dde-license-dialog/content.cpp" line="225"/>
         <source>Confirm</source>
         <translation>Potvrdit</translation>
     </message>
@@ -51,7 +43,7 @@
         <location filename="../dde-shutdown/view/contentwidget.cpp" line="391"/>
         <location filename="../dde-shutdown/view/contentwidget.cpp" line="527"/>
         <source>Shut down</source>
-        <translation>Vypnout</translation>
+        <translation>Vypínání</translation>
     </message>
     <message>
         <location filename="../dde-shutdown/view/contentwidget.cpp" line="332"/>
@@ -76,7 +68,7 @@
         <location filename="../dde-shutdown/view/contentwidget.cpp" line="401"/>
         <location filename="../dde-shutdown/view/contentwidget.cpp" line="542"/>
         <source>Log out</source>
-        <translation>Odhlásit se</translation>
+        <translation>Odhlašování se</translation>
     </message>
     <message>
         <location filename="../dde-shutdown/view/contentwidget.cpp" line="402"/>
@@ -206,14 +198,19 @@
 <context>
     <name>DisplayModeProvider</name>
     <message>
-        <location filename="../dde-osd/displaymodeprovider.cpp" line="176"/>
+        <location filename="../dde-osd/displaymodeprovider.cpp" line="184"/>
+        <source>Customize</source>
+        <translation>Přizpůsobit</translation>
+    </message>
+    <message>
+        <location filename="../dde-osd/displaymodeprovider.cpp" line="186"/>
         <source>Duplicate</source>
         <translation>Zrcadlit</translation>
     </message>
     <message>
-        <location filename="../dde-osd/displaymodeprovider.cpp" line="178"/>
+        <location filename="../dde-osd/displaymodeprovider.cpp" line="188"/>
         <source>Extend</source>
-        <translation>Rozšířit</translation>
+        <translation>Roztáhnout</translation>
     </message>
 </context>
 <context>
@@ -283,12 +280,12 @@
     <message>
         <location filename="../dde-lock/lockworker.cpp" line="221"/>
         <source>Fingerprint verification timed out, please enter your password manually</source>
-        <translation>Nepodařilo se porovnat otisk prstu. Prosím zadejte své heslo ručně</translation>
+        <translation>Překročen časový limit pro pokus o ověření se otiskem prstu – zadejte namísto toho heslo ručně</translation>
     </message>
     <message>
         <location filename="../dde-lock/lockworker.cpp" line="239"/>
         <source>Failed to match fingerprint</source>
-        <translation>Nepodařilo se porovnat otisk prstu</translation>
+        <translation>Nepodařilo se najít v otisku shodu</translation>
     </message>
     <message>
         <location filename="../dde-lock/lockworker.cpp" line="274"/>
@@ -306,12 +303,12 @@
     <message>
         <location filename="../dde-shutdown/view/multiuserswarningview.cpp" line="129"/>
         <source>The above users are still logged in and data will be lost due to reboot, are you sure you want to reboot?</source>
-        <translation>Výše uvedení uživatelé jsou stále ještě přihlášení a restartováním mohou přijít o data – opravdu chcete počítač restartovat?</translation>
+        <translation>Výše uvedení uživatelé jsou pořád ještě přihlášení a restartováním mohou přijít o data – opravdu chcete počítač restartovat?</translation>
     </message>
     <message>
         <location filename="../dde-shutdown/view/multiuserswarningview.cpp" line="123"/>
         <source>The above users are still logged in and data will be lost due to shutdown, are you sure you want to shut down?</source>
-        <translation>Výše uvedení uživatelé jsou stále ještě přihlášení a vypnutím mohou přijít o data – opravdu chcete počítač vypnout?</translation>
+        <translation>Výše uvedení uživatelé jsou pořád ještě přihlášení a vypnutím mohou přijít o data – opravdu chcete počítač vypnout?</translation>
     </message>
 </context>
 <context>
@@ -388,7 +385,7 @@
 <context>
     <name>NotifyCenterWidget</name>
     <message>
-        <location filename="../dde-osd/notification-center/notifycenterwidget.cpp" line="89"/>
+        <location filename="../dde-osd/notification-center/notifycenterwidget.cpp" line="90"/>
         <source>Notification Center</source>
         <translation>Centrum oznámení</translation>
     </message>
@@ -398,7 +395,7 @@
     <message>
         <location filename="../dde-osd/notification-center/notifywidget.cpp" line="40"/>
         <source>No system notifications</source>
-        <translation>Žádná upozornění od systému</translation>
+        <translation>Žádná upozornění ze systému</translation>
     </message>
 </context>
 <context>
@@ -425,29 +422,6 @@
         <location filename="../dmemory-warning-dialog/src/processinfomodel.cpp" line="111"/>
         <source>End</source>
         <translation>Ukončit</translation>
-    </message>
-</context>
-<context>
-    <name>ShutdownWidget</name>
-    <message>
-        <source>Shut down</source>
-        <translation type="vanished">Vypnout</translation>
-    </message>
-    <message>
-        <source>Login</source>
-        <translation type="vanished">Přihlášení</translation>
-    </message>
-    <message>
-        <source>Reboot</source>
-        <translation type="vanished">Restartovat</translation>
-    </message>
-    <message>
-        <source>Suspend</source>
-        <translation type="vanished">Uspat</translation>
-    </message>
-    <message>
-        <source>Hibernate</source>
-        <translation type="vanished">Uspat na disk</translation>
     </message>
 </context>
 <context>
@@ -511,25 +485,6 @@
         <location filename="../dde-welcome/updatecontent.cpp" line="46"/>
         <source>Enter</source>
         <translation>Vstoupit</translation>
-    </message>
-</context>
-<context>
-    <name>UserInputWidget</name>
-    <message>
-        <source>Login</source>
-        <translation type="vanished">Přihlášení</translation>
-    </message>
-    <message numerus="yes">
-        <source>Please try again %n minute(s) later</source>
-        <translation type="vanished"><numerusform>Prosím zkuste znovu za %n minutu</numerusform><numerusform>Prosím zkuste znovu za %n minuty</numerusform><numerusform>Prosím zkuste znovu za %n minut</numerusform><numerusform>Prosím zkuste znovu za %n minuty</numerusform></translation>
-    </message>
-    <message>
-        <source>Enter your password to shut down</source>
-        <translation type="vanished">Pro vypnutí zadejte své heslo</translation>
-    </message>
-    <message>
-        <source>Enter your password to reboot</source>
-        <translation type="vanished">Pro restart zadejte své heslo</translation>
     </message>
 </context>
 <context>

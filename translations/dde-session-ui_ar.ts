@@ -2,22 +2,22 @@
 <context>
     <name>BubbleItem</name>
     <message>
-        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="197"/>
+        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="200"/>
         <source>Just Now</source>
         <translation>فقط الآن</translation>
     </message>
     <message>
-        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="199"/>
+        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="202"/>
         <source>%1 minutes ago</source>
-        <translation>منذ %1 دقيقة</translation>
-    </message>
-    <message>
-        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="201"/>
-        <source>%1 hours ago</source>
-        <translation>منذ 1% ساعات</translation>
+        <translation>منذ 1 دقيقة</translation>
     </message>
     <message>
         <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="204"/>
+        <source>%1 hours ago</source>
+        <translation>منذ 1 ساعة</translation>
+    </message>
+    <message>
+        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="207"/>
         <source>Yesterday </source>
         <translation>الأمس</translation>
     </message>
@@ -25,20 +25,12 @@
 <context>
     <name>Content</name>
     <message>
-        <source>Chinese</source>
-        <translation type="vanished">اللغة الصينية</translation>
-    </message>
-    <message>
-        <source>English</source>
-        <translation type="vanished">اللغة الإنجليزية</translation>
-    </message>
-    <message>
-        <location filename="../dde-license-dialog/content.cpp" line="47"/>
+        <location filename="../dde-license-dialog/content.cpp" line="224"/>
         <source>Cancel</source>
         <translation>إلغاء</translation>
     </message>
     <message>
-        <location filename="../dde-license-dialog/content.cpp" line="48"/>
+        <location filename="../dde-license-dialog/content.cpp" line="225"/>
         <source>Confirm</source>
         <translation>تأكيد</translation>
     </message>
@@ -206,14 +198,19 @@
 <context>
     <name>DisplayModeProvider</name>
     <message>
-        <location filename="../dde-osd/displaymodeprovider.cpp" line="176"/>
+        <location filename="../dde-osd/displaymodeprovider.cpp" line="184"/>
+        <source>Customize</source>
+        <translation>تخصيص</translation>
+    </message>
+    <message>
+        <location filename="../dde-osd/displaymodeprovider.cpp" line="186"/>
         <source>Duplicate</source>
         <translation>مكرر</translation>
     </message>
     <message>
-        <location filename="../dde-osd/displaymodeprovider.cpp" line="178"/>
+        <location filename="../dde-osd/displaymodeprovider.cpp" line="188"/>
         <source>Extend</source>
-        <translation>توسعة</translation>
+        <translation>تمديد</translation>
     </message>
 </context>
 <context>
@@ -293,7 +290,7 @@
     <message>
         <location filename="../dde-lock/lockworker.cpp" line="274"/>
         <source>Wrong Password</source>
-        <translation>كلمة المرور غير صحيحة</translation>
+        <translation>كلمة مرور خاطئة</translation>
     </message>
 </context>
 <context>
@@ -388,7 +385,7 @@
 <context>
     <name>NotifyCenterWidget</name>
     <message>
-        <location filename="../dde-osd/notification-center/notifycenterwidget.cpp" line="89"/>
+        <location filename="../dde-osd/notification-center/notifycenterwidget.cpp" line="90"/>
         <source>Notification Center</source>
         <translation>مركز اﻹشعارات</translation>
     </message>
@@ -428,29 +425,6 @@
     </message>
 </context>
 <context>
-    <name>ShutdownWidget</name>
-    <message>
-        <source>Shut down</source>
-        <translation type="vanished">إيقاف التشغيل</translation>
-    </message>
-    <message>
-        <source>Login</source>
-        <translation type="vanished">تسجيل دخول</translation>
-    </message>
-    <message>
-        <source>Reboot</source>
-        <translation type="vanished">إعادة التشغيل</translation>
-    </message>
-    <message>
-        <source>Suspend</source>
-        <translation type="vanished">إسبات</translation>
-    </message>
-    <message>
-        <source>Hibernate</source>
-        <translation type="vanished">وضع السكون</translation>
-    </message>
-</context>
-<context>
     <name>SuspendDialog</name>
     <message>
         <location filename="../dde-suspend-dialog/suspenddialog.cpp" line="39"/>
@@ -472,7 +446,7 @@
     <message>
         <location filename="../dde-suspend-dialog/suspenddialog.cpp" line="50"/>
         <source>Suspend</source>
-        <translation>تعليق</translation>
+        <translation>إسبات</translation>
     </message>
 </context>
 <context>
@@ -512,25 +486,6 @@
         <location filename="../dde-welcome/updatecontent.cpp" line="46"/>
         <source>Enter</source>
         <translation>أُدخل</translation>
-    </message>
-</context>
-<context>
-    <name>UserInputWidget</name>
-    <message>
-        <source>Login</source>
-        <translation type="vanished">تسجيل دخول</translation>
-    </message>
-    <message numerus="yes">
-        <source>Please try again %n minute(s) later</source>
-        <translation type="vanished"><numerusform>الرجاء إعادة المحاولة بعد n% دقيقة(ائق)</numerusform><numerusform>الرجاء إعادة المحاولة بعد n% دقيقة(ائق)</numerusform><numerusform>الرجاء إعادة المحاولة بعد n% دقيقة(ائق)</numerusform><numerusform>الرجاء إعادة المحاولة بعد n% دقيقة(ائق)</numerusform><numerusform>الرجاء إعادة المحاولة بعد n% دقيقة(ائق)</numerusform><numerusform>الرجاء إعادة المحاولة بعد n% دقيقة(ائق)</numerusform></translation>
-    </message>
-    <message>
-        <source>Enter your password to shut down</source>
-        <translation type="vanished">أدخل كلمة المرور ﻹيقاف التشغيل</translation>
-    </message>
-    <message>
-        <source>Enter your password to reboot</source>
-        <translation type="vanished">ادخل كلمة مرورك لإعادة التشغيل</translation>
     </message>
 </context>
 <context>

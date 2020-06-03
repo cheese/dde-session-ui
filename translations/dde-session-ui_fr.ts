@@ -2,22 +2,22 @@
 <context>
     <name>BubbleItem</name>
     <message>
-        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="197"/>
+        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="200"/>
         <source>Just Now</source>
         <translation>Juste maintenant</translation>
     </message>
     <message>
-        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="199"/>
+        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="202"/>
         <source>%1 minutes ago</source>
         <translation>Il y a %1 minutes</translation>
     </message>
     <message>
-        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="201"/>
+        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="204"/>
         <source>%1 hours ago</source>
         <translation>Il y a %1 heures</translation>
     </message>
     <message>
-        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="204"/>
+        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="207"/>
         <source>Yesterday </source>
         <translation>Hier</translation>
     </message>
@@ -25,20 +25,12 @@
 <context>
     <name>Content</name>
     <message>
-        <source>Chinese</source>
-        <translation type="vanished">Chinois</translation>
-    </message>
-    <message>
-        <source>English</source>
-        <translation type="vanished">Anglais</translation>
-    </message>
-    <message>
-        <location filename="../dde-license-dialog/content.cpp" line="47"/>
+        <location filename="../dde-license-dialog/content.cpp" line="224"/>
         <source>Cancel</source>
         <translation>Annuler</translation>
     </message>
     <message>
-        <location filename="../dde-license-dialog/content.cpp" line="48"/>
+        <location filename="../dde-license-dialog/content.cpp" line="225"/>
         <source>Confirm</source>
         <translation>Confirmer</translation>
     </message>
@@ -51,7 +43,7 @@
         <location filename="../dde-shutdown/view/contentwidget.cpp" line="391"/>
         <location filename="../dde-shutdown/view/contentwidget.cpp" line="527"/>
         <source>Shut down</source>
-        <translation>Arrêter</translation>
+        <translation>Éteindre</translation>
     </message>
     <message>
         <location filename="../dde-shutdown/view/contentwidget.cpp" line="332"/>
@@ -69,7 +61,7 @@
     <message>
         <location filename="../dde-shutdown/view/contentwidget.cpp" line="397"/>
         <source>Are you sure you want to reboot?</source>
-        <translation>Êtes-vous sûr de vouloir vous redémarrer ?</translation>
+        <translation>Êtes-vous sûr de vouloir redémarrer ?</translation>
     </message>
     <message>
         <location filename="../dde-shutdown/view/contentwidget.cpp" line="338"/>
@@ -87,23 +79,23 @@
         <location filename="../dde-shutdown/view/contentwidget.cpp" line="334"/>
         <location filename="../dde-shutdown/view/contentwidget.cpp" line="533"/>
         <source>Suspend</source>
-        <translation>Mettre en veille </translation>
+        <translation>Mise en veille </translation>
     </message>
     <message>
         <location filename="../dde-shutdown/view/contentwidget.cpp" line="326"/>
         <source>The programs are preventing the computer from shutting down / hibernation, and forcing shut down / hibernate may cause data loss.</source>
-        <translation>Les programmes empêchent l&apos;ordinateur de s&apos;éteindre / veille prolongée, et forcer l&apos;arrêt / veille prolongée peut entraîner une perte de données.</translation>
+        <translation>Les programmes empêchent l&apos;ordinateur de s&apos;éteindre / veille prolongée, et forcer l&apos;arrêt / veille prolongée peut entraîner une perte des données.</translation>
     </message>
     <message>
         <location filename="../dde-shutdown/view/contentwidget.cpp" line="327"/>
         <source>To close the program, Click Cancel, and then close the program.</source>
-        <translation>Pour fermer le programme, cliquer sur Annuler, puis fermer le programme.</translation>
+        <translation>Pour arrêter le programme, cliquez sur Annuler, puis fermez le programme.</translation>
     </message>
     <message>
         <location filename="../dde-shutdown/view/contentwidget.cpp" line="336"/>
         <location filename="../dde-shutdown/view/contentwidget.cpp" line="536"/>
         <source>Hibernate</source>
-        <translation>Hiberner</translation>
+        <translation>Mise en hibernation</translation>
     </message>
     <message>
         <location filename="../dde-shutdown/view/contentwidget.cpp" line="539"/>
@@ -206,14 +198,19 @@
 <context>
     <name>DisplayModeProvider</name>
     <message>
-        <location filename="../dde-osd/displaymodeprovider.cpp" line="176"/>
+        <location filename="../dde-osd/displaymodeprovider.cpp" line="184"/>
+        <source>Customize</source>
+        <translation>Personnaliser</translation>
+    </message>
+    <message>
+        <location filename="../dde-osd/displaymodeprovider.cpp" line="186"/>
         <source>Duplicate</source>
         <translation>Dupliquer</translation>
     </message>
     <message>
-        <location filename="../dde-osd/displaymodeprovider.cpp" line="178"/>
+        <location filename="../dde-osd/displaymodeprovider.cpp" line="188"/>
         <source>Extend</source>
-        <translation>Étendre</translation>
+        <translation>Etendre</translation>
     </message>
 </context>
 <context>
@@ -239,7 +236,7 @@
     <message>
         <location filename="../lightdm-deepin-greeter/greeterworkek.cpp" line="249"/>
         <source>Fingerprint verification timed out, please enter your password manually</source>
-        <translation>Aucune correspondance trouvée pour cette empreinte digitale, veuillez entrer manuellement votre mot de passe.</translation>
+        <translation>Aucune correspondance trouvée pour cette empreinte digitale, veuillez entrer votre mot de passe manuellement.</translation>
     </message>
     <message>
         <location filename="../lightdm-deepin-greeter/greeterworkek.cpp" line="264"/>
@@ -254,7 +251,7 @@
     <message>
         <location filename="../lightdm-deepin-greeter/greeterworkek.cpp" line="287"/>
         <source>The domain account or password is not correct. Please enter again.</source>
-        <translation>Le compte de domaine ou le mot de passe n&apos;est pas correct. Veuillez entrer à nouveau.</translation>
+        <translation>Le compte de domaine ou le mot de passe n&apos;est pas correct. Veuillez l&apos;entrer à nouveau.</translation>
     </message>
 </context>
 <context>
@@ -283,7 +280,7 @@
     <message>
         <location filename="../dde-lock/lockworker.cpp" line="221"/>
         <source>Fingerprint verification timed out, please enter your password manually</source>
-        <translation>Aucune correspondance trouvée pour cette empreinte digitale, veuillez entrer manuellement votre mot de passe.</translation>
+        <translation>Aucune correspondance trouvée pour cette empreinte digitale, veuillez entrer votre mot de passe manuellement.</translation>
     </message>
     <message>
         <location filename="../dde-lock/lockworker.cpp" line="239"/>
@@ -306,12 +303,12 @@
     <message>
         <location filename="../dde-shutdown/view/multiuserswarningview.cpp" line="129"/>
         <source>The above users are still logged in and data will be lost due to reboot, are you sure you want to reboot?</source>
-        <translation>Les utilisateurs ci-dessus sont toujours connectés, des données seront perdues si vous redémarrez l&apos;ordinateur, êtes-vous sûr de vouloir poursuivre ?</translation>
+        <translation>Les utilisateurs ci-dessus sont toujours connectés, des données seront perdues si vous redémarrez l&apos;ordinateur, êtes-vous sûr de vouloir poursuivre?</translation>
     </message>
     <message>
         <location filename="../dde-shutdown/view/multiuserswarningview.cpp" line="123"/>
         <source>The above users are still logged in and data will be lost due to shutdown, are you sure you want to shut down?</source>
-        <translation>Les utilisateurs ci-dessus sont toujours connectés, des données seront perdues si vous éteignez l&apos;ordinateur, êtes-vous sûr de vouloir poursuivre ?</translation>
+        <translation>Les utilisateurs ci-dessus sont toujours connectés, des données seront perdues si vous éteignez l&apos;ordinateur, êtes-vous sûr de vouloir poursuivre?</translation>
     </message>
 </context>
 <context>
@@ -328,7 +325,7 @@
         <location filename="../dnetwork-secret-dialog/networksecretdialog.cpp" line="48"/>
         <location filename="../dnetwork-secret-dialog/networksecretdialog.cpp" line="49"/>
         <source>Key</source>
-        <translation>Clé</translation>
+        <translation>Clef</translation>
     </message>
     <message>
         <location filename="../dnetwork-secret-dialog/networksecretdialog.cpp" line="50"/>
@@ -338,7 +335,7 @@
     <message>
         <location filename="../dnetwork-secret-dialog/networksecretdialog.cpp" line="58"/>
         <source>Private Pwd</source>
-        <translation>Mdp privé</translation>
+        <translation>Pwd privé</translation>
     </message>
     <message>
         <location filename="../dnetwork-secret-dialog/networksecretdialog.cpp" line="61"/>
@@ -353,7 +350,7 @@
     <message>
         <location filename="../dnetwork-secret-dialog/networksecretdialog.cpp" line="105"/>
         <source>Password required to connect &lt;font color=&quot;%1&quot;&gt;%2&lt;/font&gt;</source>
-        <translation>Mot de passe requis pour se connecter &lt;font color=&quot;%1&quot;&gt;%2&lt;/font&gt;</translation>
+        <translation>Mot de passe requis pour connecter &lt;font color=&quot;%1&quot;&gt;%2&lt;/font&gt;</translation>
     </message>
     <message>
         <location filename="../dnetwork-secret-dialog/networksecretdialog.cpp" line="174"/>
@@ -388,7 +385,7 @@
 <context>
     <name>NotifyCenterWidget</name>
     <message>
-        <location filename="../dde-osd/notification-center/notifycenterwidget.cpp" line="89"/>
+        <location filename="../dde-osd/notification-center/notifycenterwidget.cpp" line="90"/>
         <source>Notification Center</source>
         <translation>Centre de notification</translation>
     </message>
@@ -398,7 +395,7 @@
     <message>
         <location filename="../dde-osd/notification-center/notifywidget.cpp" line="40"/>
         <source>No system notifications</source>
-        <translation>Aucune notification système </translation>
+        <translation>Aucune notification système</translation>
     </message>
 </context>
 <context>
@@ -428,29 +425,6 @@
     </message>
 </context>
 <context>
-    <name>ShutdownWidget</name>
-    <message>
-        <source>Shut down</source>
-        <translation type="vanished">Arrêter</translation>
-    </message>
-    <message>
-        <source>Login</source>
-        <translation type="vanished">Identifiant</translation>
-    </message>
-    <message>
-        <source>Reboot</source>
-        <translation type="vanished">Redémarrer</translation>
-    </message>
-    <message>
-        <source>Suspend</source>
-        <translation type="vanished">Mettre en veille </translation>
-    </message>
-    <message>
-        <source>Hibernate</source>
-        <translation type="vanished">Hiberner</translation>
-    </message>
-</context>
-<context>
     <name>SuspendDialog</name>
     <message>
         <location filename="../dde-suspend-dialog/suspenddialog.cpp" line="39"/>
@@ -471,7 +445,7 @@
     <message>
         <location filename="../dde-suspend-dialog/suspenddialog.cpp" line="50"/>
         <source>Suspend</source>
-        <translation>Mettre en veille </translation>
+        <translation>Mise en veille </translation>
     </message>
 </context>
 <context>
@@ -487,12 +461,12 @@
     <message>
         <location filename="../dde-lock/timewidget.cpp" line="69"/>
         <source>hh:mm</source>
-        <translation>hh : mm</translation>
+        <translation>hh:mm</translation>
     </message>
     <message>
         <location filename="../dde-lock/timewidget.cpp" line="70"/>
         <source>yyyy-MM-dd dddd</source>
-        <translation>yyyy-MM-dd dddd</translation>
+        <translation>yyyy-MM-dd dddd </translation>
     </message>
 </context>
 <context>
@@ -505,7 +479,7 @@
     <message>
         <location filename="../dde-welcome/updatecontent.cpp" line="45"/>
         <source>Current Edition:</source>
-        <translation>Édition actuelle :</translation>
+        <translation>Édition actuelle:</translation>
     </message>
     <message>
         <location filename="../dde-welcome/updatecontent.cpp" line="46"/>
@@ -514,30 +488,11 @@
     </message>
 </context>
 <context>
-    <name>UserInputWidget</name>
-    <message>
-        <source>Login</source>
-        <translation type="vanished">Identifiant</translation>
-    </message>
-    <message numerus="yes">
-        <source>Please try again %n minute(s) later</source>
-        <translation type="vanished"><numerusform>Veuillez réessayer dans %n minute(s)</numerusform><numerusform>Veuillez réessayer dans %n minute(s)</numerusform></translation>
-    </message>
-    <message>
-        <source>Enter your password to shut down</source>
-        <translation type="vanished">Saisir votre mot de passe pour arrêter</translation>
-    </message>
-    <message>
-        <source>Enter your password to reboot</source>
-        <translation type="vanished">Insérer votre mot de passe pour redémarrer </translation>
-    </message>
-</context>
-<context>
     <name>WMChooser</name>
     <message>
         <location filename="../dde-wm-chooser/wmchooser.cpp" line="57"/>
         <source>Effect Mode</source>
-        <translation>Mode effet</translation>
+        <translation>Mode esthétique </translation>
     </message>
     <message>
         <location filename="../dde-wm-chooser/wmchooser.cpp" line="60"/>
@@ -547,14 +502,12 @@
     <message>
         <location filename="../dde-wm-chooser/wmchooser.cpp" line="68"/>
         <source>It has detected that you are using a virtual machine, which will affect the system performance and operation experience, for a smooth experience, Normal Mode is recommended</source>
-        <translation>Vous utilisez une machine virtuelle, ce qui affecte les performances du système, ainsi que l&apos;expérience utilisateur.
-Pour une utilisation optimale, il est recommandé d&apos;utiliser le mode normal</translation>
+        <translation>Vous utilisez une machine virtuelle, ce qui affecte les performances du système, ainsi que l&apos;expérience utilisateur. Pour une utilisation optimale, il est recommandé d&apos;utiliser le mode normal</translation>
     </message>
     <message>
         <location filename="../dde-wm-chooser/wmchooser.cpp" line="71"/>
         <source>Effect Mode: Have a delicate experience. Normal Mode: Enjoy the fast performance</source>
-        <translation>Mode effet : Pour un rendu esthétique amélioré. 
-Mode normal : Pour des performances élevées.</translation>
+        <translation>Mode effet: Pour un rendu esthétique amélioré.  Mode normal: Pour des performances élevées.</translation>
     </message>
     <message>
         <location filename="../dde-wm-chooser/wmchooser.cpp" line="64"/>
@@ -593,7 +546,7 @@ Mode normal : Pour des performances élevées.</translation>
     <message>
         <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="43"/>
         <source>The PIN for connecting to the Bluetooth device is:</source>
-        <translation>Le code PIN pour la connexion au périphérique Bluetooth est :</translation>
+        <translation>Le code PIN pour la connexion au périphérique Bluetooth est:</translation>
     </message>
     <message>
         <location filename="../dde-bluetooth-dialog/pincodedialog.cpp" line="51"/>

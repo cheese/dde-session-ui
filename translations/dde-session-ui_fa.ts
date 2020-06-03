@@ -2,22 +2,22 @@
 <context>
     <name>BubbleItem</name>
     <message>
-        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="197"/>
+        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="200"/>
         <source>Just Now</source>
         <translation>همین حالا</translation>
     </message>
     <message>
-        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="199"/>
+        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="202"/>
         <source>%1 minutes ago</source>
         <translation>%1 دقیقه پیش</translation>
     </message>
     <message>
-        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="201"/>
+        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="204"/>
         <source>%1 hours ago</source>
         <translation>%1 ساعت پیش</translation>
     </message>
     <message>
-        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="204"/>
+        <location filename="../dde-osd/notification-center/bubbleitem.cpp" line="207"/>
         <source>Yesterday </source>
         <translation>دیروز</translation>
     </message>
@@ -25,20 +25,12 @@
 <context>
     <name>Content</name>
     <message>
-        <source>Chinese</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <source>English</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../dde-license-dialog/content.cpp" line="47"/>
+        <location filename="../dde-license-dialog/content.cpp" line="224"/>
         <source>Cancel</source>
-        <translation>لغو</translation>
+        <translation>انصراف</translation>
     </message>
     <message>
-        <location filename="../dde-license-dialog/content.cpp" line="48"/>
+        <location filename="../dde-license-dialog/content.cpp" line="225"/>
         <source>Confirm</source>
         <translation>تایید</translation>
     </message>
@@ -206,12 +198,17 @@
 <context>
     <name>DisplayModeProvider</name>
     <message>
-        <location filename="../dde-osd/displaymodeprovider.cpp" line="176"/>
+        <location filename="../dde-osd/displaymodeprovider.cpp" line="184"/>
+        <source>Customize</source>
+        <translation>شخصی سازی</translation>
+    </message>
+    <message>
+        <location filename="../dde-osd/displaymodeprovider.cpp" line="186"/>
         <source>Duplicate</source>
         <translation>تکراری</translation>
     </message>
     <message>
-        <location filename="../dde-osd/displaymodeprovider.cpp" line="178"/>
+        <location filename="../dde-osd/displaymodeprovider.cpp" line="188"/>
         <source>Extend</source>
         <translation>گسترش</translation>
     </message>
@@ -283,17 +280,17 @@
     <message>
         <location filename="../dde-lock/lockworker.cpp" line="221"/>
         <source>Fingerprint verification timed out, please enter your password manually</source>
-        <translation>تایید اثر انگشت منقضی شد , لطفا ً گذرواژه خود را دستی وارد کنید</translation>
+        <translation>تایید اثر انگشت منقضی شد , لطفا ً رمزعبور خود را دستی وارد کنید</translation>
     </message>
     <message>
         <location filename="../dde-lock/lockworker.cpp" line="239"/>
         <source>Failed to match fingerprint</source>
-        <translation>تطابق اثر انگشت ناموفق بود.</translation>
+        <translation>تطابق اثر انگشت ناموفق بود</translation>
     </message>
     <message>
         <location filename="../dde-lock/lockworker.cpp" line="274"/>
         <source>Wrong Password</source>
-        <translation>رمزعبور اشتباه</translation>
+        <translation>رمزعبور اشتباه است</translation>
     </message>
 </context>
 <context>
@@ -321,7 +318,7 @@
         <location filename="../dnetwork-secret-dialog/networksecretdialog.cpp" line="52"/>
         <location filename="../dnetwork-secret-dialog/networksecretdialog.cpp" line="62"/>
         <source>Password</source>
-        <translation>پسورد</translation>
+        <translation>رمزعبور</translation>
     </message>
     <message>
         <location filename="../dnetwork-secret-dialog/networksecretdialog.cpp" line="47"/>
@@ -388,7 +385,7 @@
 <context>
     <name>NotifyCenterWidget</name>
     <message>
-        <location filename="../dde-osd/notification-center/notifycenterwidget.cpp" line="89"/>
+        <location filename="../dde-osd/notification-center/notifycenterwidget.cpp" line="90"/>
         <source>Notification Center</source>
         <translation>مرکز اعلان</translation>
     </message>
@@ -425,29 +422,6 @@
         <location filename="../dmemory-warning-dialog/src/processinfomodel.cpp" line="111"/>
         <source>End</source>
         <translation>پایان</translation>
-    </message>
-</context>
-<context>
-    <name>ShutdownWidget</name>
-    <message>
-        <source>Shut down</source>
-        <translation type="vanished">خاموش شدن</translation>
-    </message>
-    <message>
-        <source>Login</source>
-        <translation type="vanished">ورود</translation>
-    </message>
-    <message>
-        <source>Reboot</source>
-        <translation type="vanished">راه اندازی مجدد</translation>
-    </message>
-    <message>
-        <source>Suspend</source>
-        <translation type="vanished">معلق کردن</translation>
-    </message>
-    <message>
-        <source>Hibernate</source>
-        <translation type="vanished">هایبرنت</translation>
     </message>
 </context>
 <context>
@@ -511,25 +485,6 @@
         <location filename="../dde-welcome/updatecontent.cpp" line="46"/>
         <source>Enter</source>
         <translation>وارد شدن</translation>
-    </message>
-</context>
-<context>
-    <name>UserInputWidget</name>
-    <message>
-        <source>Login</source>
-        <translation type="vanished">ورود</translation>
-    </message>
-    <message numerus="yes">
-        <source>Please try again %n minute(s) later</source>
-        <translation type="vanished"><numerusform>لطفاً٪ n دقیقه بعد دوباره امتحان کنید</numerusform><numerusform>لطفاً٪ n دقیقه بعد دوباره امتحان کنید</numerusform></translation>
-    </message>
-    <message>
-        <source>Enter your password to shut down</source>
-        <translation type="vanished">پسورد خود را برای خاموش کردن  وارد کنید</translation>
-    </message>
-    <message>
-        <source>Enter your password to reboot</source>
-        <translation type="vanished">پسورد خود را برای راه اندازی مجدد وارد کنید</translation>
     </message>
 </context>
 <context>
