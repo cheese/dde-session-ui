@@ -6,7 +6,7 @@ Name:           deepin-session-ui
 %else
 Name:           %{repo}
 %endif
-Version:        5.3.0.22
+Version:        5.3.35
 Release:        1%{?fedora:%dist}
 Summary:        Deepin desktop-environment - Session UI module
 License:        GPLv3
@@ -33,6 +33,8 @@ BuildRequires:  pkgconfig(Qt5Svg)
 BuildRequires:  pkgconfig(Qt5Xml)
 BuildRequires:  pkgconfig(Qt5X11Extras)
 BuildRequires:  pkgconfig(Qt5Multimedia)
+BuildRequires:  gio-qt-devel
+BuildRequires:  gtest-devel
 %if 0%{?fedora}
 Requires:       deepin-daemon
 %else
