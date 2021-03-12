@@ -33,6 +33,7 @@ BuildRequires:  pkgconfig(Qt5Svg)
 BuildRequires:  pkgconfig(Qt5Xml)
 BuildRequires:  pkgconfig(Qt5X11Extras)
 BuildRequires:  pkgconfig(Qt5Multimedia)
+BuildRequires:  make
 BuildRequires:  gio-qt-devel
 BuildRequires:  gtest-devel
 %if 0%{?fedora}
