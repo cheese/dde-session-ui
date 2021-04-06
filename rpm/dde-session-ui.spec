@@ -38,6 +38,7 @@ BuildRequires:  gio-qt-devel
 BuildRequires:  gtest-devel
 %if 0%{?fedora}
 Requires:       deepin-daemon
+Requires:       deepin-session-shell
 %else
 Requires:       dde-daemon
 %endif
